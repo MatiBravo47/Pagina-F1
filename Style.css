@@ -51,30 +51,14 @@ ul.topnav li.right {float: right;}
     padding: 10px;
     flex: 50%;
   }
-  
-  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  /* =================Flexbox de escuderias----------------  */
+  /* Crea una columna */
   @media (max-width: 800px) {
     .flex-container {
       flex-direction: column;
     }
   }
 
-  .flex-container2 {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: DodgerBlue;
-  }
-  
-  .flex-container2 > div {
-    background-color: #f1f1f1;
-    width: 300px;
-    height: 300px;
-    margin: 0;
-    text-align: center;
-    line-height: 75px;
-    font-size: 20px;
-    
-  }
   div {
       overflow: hidden;
   }
@@ -122,8 +106,8 @@ li >a {
 .AlphaTauri{
   color: #022a4a;
 } 
-
-
+/* --------------------------------------------------------------------------- */
+/* Galeria */
 div.gallery {
   border: 1px solid #ccc;
 }
@@ -169,4 +153,15 @@ div.desc {
   content: "";
   display: table;
   clear: both;
+}
+/* ============================================================================ */
+div>img {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+.desc {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
 }
