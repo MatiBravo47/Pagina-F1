@@ -5,7 +5,7 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #0A0A00;
 }
 
 ul.topnav li {float: left;}
@@ -20,7 +20,7 @@ ul.topnav li a {
 
 ul.topnav li a:hover:not(.active) {background-color: #111;}
 
-ul.topnav li a.active {background-color: #04AA6D;}
+ul.topnav li a.active {background-color: #fe0000;}
 
 ul.topnav li.right {float: right;}
 
@@ -41,13 +41,13 @@ ul.topnav li.right {float: right;}
   }
   
   .flex-item-left {
-    background-color: #000000;
+    background-color: #EBE8E0;
     padding: 10px;
     flex: 50%;
   }
   
   .flex-item-right {
-    background-color: rgb(0, 0, 0);
+    background-color: #EBE8E0;
     padding: 10px;
     flex: 50%;
   }
@@ -66,11 +66,11 @@ ul.topnav li.right {float: right;}
 .nombre {
   
   font-family: 'Dongle', sans-serif;
-  color: #f1f1f1;
+  color: #0A0A00;
 
 }
 li >a {
-  font-family: 'Dongle', sans-serif;
+font-family: 'Titillium Web', sans-serif;
   font-size: 30px;
 }
 .Apellido{
@@ -79,33 +79,43 @@ li >a {
     font-weight: bold;  
     margin: 0%;
 }
+.Black{
+  color: black;
+}
+.White{
+  color: white;
+}
+
 .Ferrari{
-  color: #fe0000;
+  background-color: #fe0000;
 }
 .Mercedes{
-  color: #02a09b;
+  background-color: #02a09b;
 }
 .RedBull {
-  color: #14195b;
+  background-color: #14195b;
 }
 .Mclaren {
-  color: #fd8000;
+  background-color: #fd8000;
 }
 .Williams {
-  color: #041e41;
+  background-color: #041e41;
 } 
 .AstonMartin{
-  color: #015a50;
+  background-color: #015a50;
 }
 .Haas{
-  color: #ffffff;
+  background-color: #ffffff;
 }  
 .AlfaRomeo{
-  color: #990100;
+  background-color: #990100;
 }
 .AlphaTauri{
-  color: #022a4a;
+  background-color: #022a4a;
 } 
+.Alpine{
+  background-color: #0f1c2c;
+}
 /* --------------------------------------------------------------------------- */
 /* Galeria */
 div.gallery {
@@ -161,7 +171,24 @@ div>img {
   height: auto;
 }
 .desc {
-  font-family: sans-serif;
-  font-size: 30px;
+font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
   font-weight: bold;
+}
+h1{
+  font-family: 'Dongle', sans-serif;
+  color:#990100;
+}
+
+h3{
+  font-family: 'Dongle', sans-serif;
+  color:#990100;
+
+}
+.color {
+  background-color: #A8BBB0;
+}
+.bordes{
+  border-color: #990100;
+  border-width: 1px;
 }
