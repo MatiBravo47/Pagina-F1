@@ -76,7 +76,7 @@ font-family: 'Titillium Web', sans-serif;
 .Apellido{
     font-family: 'Dongle', sans-serif;
     font-size: 80px;
-    font-weight: bold;  
+    font-weight: 600;  
     margin: 0%;
 }
 .Black{
@@ -176,13 +176,17 @@ font-family: 'Titillium Web', sans-serif;
   font-weight: bold;
 }
 h1{
-  font-family: 'Dongle', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   color:#990100;
+  font-weight: 600;
+  margin: 0;
+  text-decoration: underline;
 }
 
 h3{
   font-family: 'Dongle', sans-serif;
   color:#990100;
+  margin: 0;
 
 }
 .color {
@@ -192,3 +196,10 @@ h3{
   border-color: #990100;
   border-width: 1px;
 }
+#pie {
+  background-color: #0A0A00;
+  height: 150px;
+  text-align: center;
+  Color:White;
+}
+
