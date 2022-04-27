@@ -1,4 +1,6 @@
-body {margin: 0;}
+body {
+  margin: 0;
+}
 
 ul.topnav {
   list-style-type: none;
@@ -8,7 +10,9 @@ ul.topnav {
   background-color: #0A0A00;
 }
 
-ul.topnav li {float: left;}
+ul.topnav li {
+  float: left;
+}
 
 ul.topnav li a {
   display: block;
@@ -18,104 +22,128 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul.topnav li a:hover:not(.active) {
+  background-color: #111;
+}
 
-ul.topnav li a.active {background-color: #fe0000;}
+ul.topnav li a.active {
+  background-color: #fe0000;
+}
 
-ul.topnav li.right {float: right;}
+ul.topnav li.right {
+  float: right;
+}
 
 @media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
+
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
 }
 
 * {
-    box-sizing: border-box;
-  }
-  
-  .flex-container {
-    display: flex;
-    flex-direction: row;
-    font-size: 30px;
-    text-align: center;
-  }
-  
-  .flex-item-left {
-    background-color: #EBE8E0;
-    padding: 10px;
-    flex: 50%;
-  }
-  
-  .flex-item-right {
-    background-color: #EBE8E0;
-    padding: 10px;
-    flex: 50%;
-  }
-  /* =================Flexbox de escuderias----------------  */
-  /* Crea una columna */
-  @media (max-width: 800px) {
-    .flex-container {
-      flex-direction: column;
-    }
-  }
+  box-sizing: border-box;
+}
 
-  div {
-      overflow: hidden;
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  background-color: #EBE8E0;
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background-color: #EBE8E0;
+  padding: 10px;
+  flex: 50%;
+}
+
+/* =================Flexbox de escuderias----------------  */
+/* Crea una columna */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
   }
+}
+
+div {
+  overflow: hidden;
+}
 
 .nombre {
-  
+
   font-family: 'Dongle', sans-serif;
   color: #0A0A00;
 
 }
-li >a {
-font-family: 'Titillium Web', sans-serif;
+
+li>a {
+  font-family: 'Titillium Web', sans-serif;
   font-size: 30px;
 }
-.Apellido{
-    font-family: 'Dongle', sans-serif;
-    font-size: 80px;
-    font-weight: 600;  
-    margin: 0%;
+
+.Apellido {
+  font-family: 'Dongle', sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+  margin: 0%;
 }
-.Black{
+
+.Black {
   color: black;
 }
-.White{
+
+.White {
   color: white;
 }
 
-.Ferrari{
+.Ferrari {
   background-color: #fe0000;
 }
-.Mercedes{
+
+.Mercedes {
   background-color: #02a09b;
 }
+
 .RedBull {
   background-color: #14195b;
 }
+
 .Mclaren {
   background-color: #fd8000;
 }
+
 .Williams {
   background-color: #041e41;
-} 
-.AstonMartin{
+}
+
+.AstonMartin {
   background-color: #015a50;
 }
-.Haas{
+
+.Haas {
   background-color: #ffffff;
-}  
-.AlfaRomeo{
+}
+
+.AlfaRomeo {
   background-color: #990100;
 }
-.AlphaTauri{
+
+.AlphaTauri {
   background-color: #022a4a;
-} 
-.Alpine{
+}
+
+.Alpine {
   background-color: #0f1c2c;
 }
+
 /* --------------------------------------------------------------------------- */
 /* Galeria */
 div.gallery {
@@ -164,47 +192,52 @@ div.desc {
   display: table;
   clear: both;
 }
+
 /* ============================================================================ */
 div>img {
   overflow: hidden;
   width: 100%;
   height: auto;
 }
+
 .desc {
-font-family: 'Titillium Web', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-size: 20px;
   font-weight: bold;
 }
-h1{
+
+h1 {
   font-family: 'Titillium Web', sans-serif;
-  color:#990100;
+  color: #990100;
   font-weight: 600;
   margin: 0;
   text-decoration: underline;
   font-size: xx-large;
 }
 
-h3{
+h3 {
   font-family: 'Dongle', sans-serif;
-  color:#990100;
+  color: #990100;
   margin: 0;
 
 }
+
 .color {
   background-color: #A8BBB0;
 }
-.bordes{
+
+.bordes {
   border-color: #990100;
   border-width: 1px;
 }
+
 #pie {
   background-color: #0A0A00;
   height: 150px;
   text-align: center;
-  Color:White;
+  Color: White;
 }
+
 img {
   border-radius: 8px;
 }
-
-
