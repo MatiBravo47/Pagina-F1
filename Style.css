@@ -1,5 +1,7 @@
-body {
+* {
   margin: 0;
+  font-family: 'Titillium Web', sans-serif;
+  box-sizing: border-box;
 }
 
 ul.topnav {
@@ -22,28 +24,14 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {
-  background-color: #111;
-}
-
 ul.topnav li a.active {
   background-color: #fe0000;
 }
 
-ul.topnav li.right {
-  float: right;
-}
-
 @media screen and (max-width: 600px) {
-
-  ul.topnav li.right,
   ul.topnav li {
     float: none;
   }
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .flex-container {
@@ -78,10 +66,7 @@ div {
 }
 
 .nombre {
-
-  font-family: 'Dongle', sans-serif;
   color: #0A0A00;
-
 }
 
 li>a {
@@ -90,7 +75,6 @@ li>a {
 }
 
 .Apellido {
-  font-family: 'Dongle', sans-serif;
   font-size: 80px;
   font-weight: 600;
   margin: 0%;
@@ -164,10 +148,6 @@ div.desc {
   text-align: center;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .responsive {
   padding: 0 6px;
   float: left;
@@ -212,11 +192,9 @@ h1 {
   font-weight: 600;
   margin: 0;
   text-decoration: underline;
-  font-size: xx-large;
 }
 
 h3 {
-  font-family: 'Dongle', sans-serif;
   color: #990100;
   margin: 0;
 
@@ -231,13 +209,26 @@ h3 {
   border-width: 1px;
 }
 
+img {
+  border-radius: 8px;
+}
+
+/* =================Footer ================= */
 #pie {
   background-color: #0A0A00;
-  height: 150px;
-  text-align: center;
   Color: White;
 }
 
-img {
-  border-radius: 8px;
+.BottomNav>li {
+  list-style-type: none;
+}
+
+.BottomNav>li a {
+  text-decoration: none;
+}
+
+.RedesSociales a {
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 20000px;
 }
