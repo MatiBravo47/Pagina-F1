@@ -6,6 +6,9 @@
 
 ul.topnav {
   list-style-type: none;
+  position: fixed;
+  top: 0px;
+  width: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -74,6 +77,14 @@ ul.topnav li a.active {
 }
 
 .flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-container-arriba {
+  margin-top: 70px;
   display: flex;
   flex-direction: row;
   font-size: 30px;
