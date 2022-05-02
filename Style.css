@@ -333,3 +333,29 @@ ul.RedesSociales {
 #circuitos {
   margin-top: 70px;
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+div .column {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+div .column{
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  div .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
