@@ -29,6 +29,7 @@ li a, .dropbtn {
 
 li a:hover, .dropdown:hover .dropbtn {
   background-color: red;
+  margin-right: 5px;
 }
 
 li.dropdown {
