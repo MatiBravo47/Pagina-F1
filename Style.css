@@ -226,7 +226,6 @@ div.desc {
 }
 
 .responsive-1 {
-  margin-top: 70px;
   padding: 0 6px;
   float: left;
   width: 24.99999%;
@@ -340,7 +339,7 @@ ul.RedesSociales {
 
 /* ========================================================================== */
 #circuitos {
-  margin-top: 70px;
+  margin-top: 5px;
 }
 
 .row {
