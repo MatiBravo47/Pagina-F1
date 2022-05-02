@@ -70,6 +70,7 @@ ul.topnav li a.active {
 @media screen and (max-width: 600px) {
   ul.topnav li {
     float: none;
+    visibility: none;
   }
 }
 
