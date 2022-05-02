@@ -347,6 +347,8 @@ div .column {
   padding: 0 4px;
   margin-top: 8px;
   vertical-align: middle;
+  flex-direction: row;
+  text-align: center;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
