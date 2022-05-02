@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Escuderias</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./Style.css">
   <script src="https://kit.fontawesome.com/56402b4728.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,67 +15,53 @@
   <link rel="icon" type="image/x-icon" href="./img/F1Logofavicon.png">
 </head>
 <header>
-  <nav>
-    <ul class="topnav">
-      <li><a><img src="./img/LogoF1.png" alt="" width="200px"></a></li>
-      <li><a href="Index.html">Inicio</a></li>
-      <li><a href="Pilotos.html">Pilotos</a></li>
-      <li><a class="active" href="Escuderias.html">Escuderias</a></li>
-      <li><a href="Circuitos.html">Circuitos</a></li>
-      <li><a href="Formulario.html">Contacto</a></li>
-      <li style="float:right" class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
-        <div class="dropdown-content">
-          <a href="Index.html">Inicio</a>
-          <a href="Pilotos.html">Pilotos</a>
-          <a href="Escuderias.html">Escuderias</a>
-          <a href="Circuitos.html">Circuitos</a>
-          <a href="Formulario.html">Contacto</a>
+  <div>
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a><img class="bordes" src="./img/LogoF1.png" height=20vw> </a>
+            <a class="active" href="Index.html">Inicio</a>
+            <a href="Pilotos.html">Pilotos</a>
+            <a href="Escuderias.html">Escuderias</a>
+            <a href="Circuitos.html">Circuitos</a>
+            <a href="Formulario.html">Contacto</a>
+            <a href="javascript:void(0);"class="icon" onclick="myFunction()">&#9776;</a>
         </div>
-      </li>
-    </ul>
-  </nav>
-
+    </nav>
+</div>
 
 </header>
 
 <body>
 
 
-  <div class="flex-container ">
-    <div class="flex-item-left Mercedes"><span class="Apellido Black">Mercedes</span> <img
+  <div class="row">
+    <div class="column">
+    <div class="Mercedes"><span class="Apellido Black">Mercedes</span> <img
         src="./img/Escuderias/Mercedes.jpg" alt="Mercedes"></div>
-    <div class="flex-item-right RedBull"><span class="Apellido White">Red Bull Racing</span> <img
+    <div class="RedBull"><span class="Apellido White">Red Bull Racing</span> <img
         src="./img/Escuderias/RB.JPG" alt="Red Bull"></div>
-  </div>
-  <div class="flex-container">
-    <div class="flex-item-left Ferrari"><span class="Apellido Black"> Scuderia Ferrari</span> <img
+    <div class="Ferrari"><span class="Apellido Black"> Scuderia Ferrari</span> <img
         src="./img/Escuderias/Ferrari.jpg" alt="Ferrari"></div>
-    <div class="flex-item-right Mclaren"><span class="Apellido White">Mclaren</span> <img
+    <div class="Mclaren"><span class="Apellido White">Mclaren</span> <img
         src="./img/Escuderias/Mclaren.jpg" alt="Mclaren"></div>
-  </div>
-  <div class="flex-container">
-    <div class="flex-item-left Alpine"><span class="Apellido White">Alpine</span> <img src="./img/Escuderias/Alpine.jpg"
+    <div class="Alpine"><span class="Apellido White">Alpine</span> <img src="./img/Escuderias/Alpine.jpg"
         alt="Alpine"></div>
-    <div class="flex-item-right AlphaTauri"><span class="Apellido White">Alpha Tauri</span><img
-        src="./img/Escuderias/Alpha tauri.jpg" alt="Alpha Tauri"></div>
-  </div>
-  <div class="flex-container">
-    <div class="flex-item-left AstonMartin"><span class="Apellido Black">Aston Martin</span> <img
-        src="./img/Escuderias/Aston Martin.JPG" alt="Aston Martin"></div>
-    <div class="flex-item-right Williams"><span class="Apellido White">Williams</span> <img
-        src="./img/Escuderias/Williams.jpg" alt="Williams"></div>
-  </div>
-  <div class="flex-container">
-    <div class="flex-item-left AlfaRomeo"><span class="Apellido White">Alfa Romeo</span> <img
-        src="./img/Escuderias/Alfa romeo.jpg" alt="Alfa Romeo"></div>
-    <div class="flex-item-right Haas"><span class="Apellido Black ">Haas F1 Team</span><img
-        src="./img/Escuderias/Haas.JPG" alt="Haas"></div>
-  </div>
+      </div>
 
-  <footer>
-    
-  </footer>
+    <div class="column">
+    <div class="AlphaTauri"><span class="Apellido White">Alpha Tauri</span><img
+        src="./img/Escuderias/Alpha tauri.jpg" alt="Alpha Tauri"></div>
+    <div class="AstonMartin"><span class="Apellido Black">Aston Martin</span> <img
+        src="./img/Escuderias/Aston Martin.JPG" alt="Aston Martin"></div>
+    <div class="Williams"><span class="Apellido White">Williams</span> <img
+        src="./img/Escuderias/Williams.jpg" alt="Williams"></div>
+    <div class="AlfaRomeo"><span class="Apellido White">Alfa Romeo</span> <img
+        src="./img/Escuderias/Alfa romeo.jpg" alt="Alfa Romeo"></div>
+    <div class="Haas"><span class="Apellido Black ">Haas F1 Team</span><img
+        src="./img/Escuderias/Haas.JPG" alt="Haas"></div>
+    </div>
+  </div>
+  <script src="main.js"></script>
 </body>
 
 </html>
