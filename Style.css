@@ -9,10 +9,10 @@ ul.topnav {
   position: fixed;
   top: 0px;
   width: 100%;
-  margin: 0;
   padding: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #0A0A00;
+  z-index: 100;
 }
 
 ul.topnav li {
@@ -64,15 +64,21 @@ ul.topnav li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size:2vw;
 }
 
 ul.topnav li a.active {
   background-color: #fe0000;
 }
-
+body{
+  margin-top: 70px;
+}
 @media screen and (max-width: 600px) {
   ul.topnav li {
     float: none;
+  }
+  body{
+    margin-top: 315px;
   }
 }
 
@@ -198,6 +204,12 @@ div.desc {
   text-align: center;
 }
 
+.responsive-1 {
+  margin-top: 70px;
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
 .responsive {
   padding: 0 6px;
   float: left;
@@ -226,7 +238,7 @@ div.desc {
 /* ============================================================================ */
 div>img {
   overflow: hidden;
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -257,6 +269,7 @@ h3 {
 .bordes {
   border-color: #990100;
   border-width: 1px;
+  border-radius: 0px;
 }
 
 img {
@@ -284,3 +297,6 @@ img {
 }
 
 /* ========================================================================== */
+#circuitos {
+  margin-top: 70px;
+}
