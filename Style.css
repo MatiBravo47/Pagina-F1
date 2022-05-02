@@ -19,7 +19,7 @@ ul.topnav li {
   float: left;
 }
 
-li a, .dropbtn {
+ul.topnav li a {
   display: inline-block;
   color: white;
   text-align: center;
@@ -27,20 +27,23 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-  margin-right: 5px;
+ul.topnav li a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: red;
 }
 
-li.dropdown {
-  display: inline-block;
+ul.topnav li .dropbtn {
+  text-align: center;
+  padding: 14px 25px;
 }
+
+
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #000000;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -53,7 +56,9 @@ li.dropdown {
   /* z-index: +1; */
 }
 
-.dropdown-content a:hover {background-color: red;}
+.dropdown-content a:hover {
+  background-color: red;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -65,20 +70,26 @@ ul.topnav li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size:2vw;
+  font-size: 2vw;
 }
 
 ul.topnav li a.active {
-  background-color: #fe0000;
+  border:4px solid #0A0A00;
+  border-top-color: #0A0A00;
+  border-left-color: #0A0A00;
+  border-bottom-color: red;
 }
-body{
+
+body {
   margin-top: 70px;
 }
+
 @media screen and (max-width: 600px) {
   ul.topnav li {
     float: none;
   }
-  body{
+
+  body {
     margin-top: 315px;
   }
 }
@@ -211,6 +222,7 @@ div.desc {
   float: left;
   width: 24.99999%;
 }
+
 .responsive {
   padding: 0 6px;
   float: left;
@@ -283,18 +295,38 @@ img {
   Color: White;
 }
 
-.BottomNav>li {
+ul.RedesSociales {
   list-style-type: none;
+  background-color: black;
+  width: 100%;
+  height: 70px;
+  bottom: 0px;
+  padding: 0;
+  /* overflow: hidden; */
+  z-index: 100;
 }
 
-.BottomNav>li a {
-  text-decoration: none;
+.RedesSociales li {
+  float: right;
 }
 
-.RedesSociales a {
+.RedesSociales li a {
+  display: block;
+  color: #002eac;
+  text-align: center;
+  padding: 16px 16px;
   text-decoration: none;
-  list-style-type: none;
-  margin-top: 20000px;
+  font-size: 1.5vw;
+  height: 2vw;
+}
+
+.RedesSociales .fijo {
+  color: white;
+}
+
+.RedesSociales li a:hover {
+  background-color: transparent;
+  text-align: center;
 }
 
 /* ========================================================================== */
