@@ -99,13 +99,6 @@ body {
   text-align: center;
 }
 
-.flex-container-arriba {
-  margin-top: 70px;
-  display: flex;
-  flex-direction: row;
-  font-size: 30px;
-  text-align: center;
-}
 
 .flex-item-left {
   background-color: #EBE8E0;
@@ -137,11 +130,11 @@ div {
 
 li>a {
   font-family: 'Titillium Web', sans-serif;
-  font-size: 30px;
+  font-size:30px;
 }
 
 .Apellido {
-  font-size: 80px;
+  font-size: 4vw;
   font-weight: 600;
   margin: 0%;
 }
