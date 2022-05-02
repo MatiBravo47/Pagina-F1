@@ -104,7 +104,6 @@
     text-align: left;
     visibility: none;
   }
-  font-size: 16px;
 }
 
 
@@ -191,6 +190,7 @@ li>a {
 
 .Haas {
   background-color: #ffffff;
+  border-style:solid;
 }
 
 .AlfaRomeo {
@@ -289,12 +289,13 @@ h3 {
 
 .bordes {
   border-color: #990100;
-  border-width: 1px;
+  border-width: 0px;
   border-radius: 0px;
 }
 
 img {
-  border-radius: 8px;
+  border-radius: 0px;
+  border-style: solid;
 }
 
 /* =================Footer ================= */
