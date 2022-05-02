@@ -15,26 +15,19 @@
   <link rel="icon" type="image/x-icon" href="./img/F1Logofavicon.png">
 </head>
 <header>
-  <nav>
-    <ul class="topnav">
-            <li><a><img class="bordes" src="./img/LogoF1.png" height=20vw></a></li>
-            <li><a href="Index.html">Inicio</a></li>
-            <li><a href="Pilotos.html">Pilotos</a></li>
-            <li><a href="Escuderias.html">Escuderias</a></li>
-            <li><a class="active" href="Circuitos.html">Circuitos</a></li>
-            <li><a href="Formulario.html">Contacto</a></li>
-            <li style="float:right" class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
-                <div class="dropdown-content">
-                    <a href="Index.html">Inicio</a>
-                    <a href="Pilotos.html">Pilotos</a>
-                    <a href="Escuderias.html">Escuderias</a>
-                    <a href="Circuitos.html">Circuitos</a>
-                    <a href="Formulario.html">Contáctanos</a>
-                </div>
-            </li>
-        </ul>
-  </nav>
+  <div>
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a><img class="bordes" src="./img/LogoF1.png" height=20vw> </a>
+            <a class="active" href="Index.html">Inicio</a>
+            <a href="Pilotos.html">Pilotos</a>
+            <a href="Escuderias.html">Escuderias</a>
+            <a href="Circuitos.html">Circuitos</a>
+            <a href="Formulario.html">Contacto</a>
+            <a href="javascript:void(0);"class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+    </nav>
+</div>
 
 
 
@@ -229,11 +222,7 @@
   </div>
   <div class="clearfix"></div>
 </div>
-
-
-  <footer>
-
-  </footer>
+<script src="main.js"></script>
 </body>
 
 </html>

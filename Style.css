@@ -15,7 +15,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 1.3vw;
+  font-size: 1.7vw;
 }
 .topnav .icon{
   display: none;
@@ -76,6 +76,7 @@
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
+    font-size: 15px;
   }
   .topnav a.icon {
     float: right;
@@ -109,7 +110,7 @@
 .flex-container {
   display: flex;
   flex-direction: row;
-  font-size: 30px;
+  font-size: 1.6vw;
   text-align: center;
 }
 
