@@ -11,7 +11,6 @@
 
 .topnav a {
   display: inline-block;
-  float:text;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -230,21 +229,21 @@ div.desc {
   width: 24.99999%;
 }
 
-.responsive {
+.responsive-2 {
   padding: 0 6px;
   float: left;
   width: 24.99999%;
 }
 
 @media only screen and (max-width: 700px) {
-  .responsive {
+  .responsive-2 {
     width: 49.99999%;
     margin: 6px 0;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .responsive {
+  .responsive-2 {
     width: 100%;
   }
 }
