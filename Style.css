@@ -93,6 +93,7 @@
   }
   .topnav.responsive a {
     float: none;
+
     display: block;
     text-align: left;
   }
@@ -102,6 +103,7 @@
     display: block;
     width: 100%;
     text-align: left;
+    visibility: none;
   }
 }
 
