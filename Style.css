@@ -3,10 +3,11 @@
   font-family: 'Titillium Web', sans-serif;
   box-sizing: border-box;
 }
-
 .topnav {
   overflow: hidden;
   background-color: #0A0A00;
+  position:fixed;
+  width: 100%;
 }
 
 .topnav a {
@@ -21,7 +22,9 @@
   display: none;
 }
 
-
+.espacio{
+  margin-top: 70px;
+}
 .topnav a:hover {
   text-decoration-line: underline;
   text-decoration-color: red;
@@ -107,6 +110,9 @@
     text-align: left;
     visibility: none;
   }
+  .nombre {
+    font-size: 12px !important; 
+  }
 }
 
 
@@ -116,6 +122,7 @@
   flex-direction: row;
   font-size: 1.6vw;
   text-align: center;
+  font-family:  tit;
 }
 
 
@@ -146,6 +153,8 @@ div {
 
 .nombre {
   color: #0A0A00;
+  font-weight: 600;
+  
 }
 
 li>a {
@@ -162,6 +171,10 @@ li>a {
 .Black {
   color: black;
 }
+.transparent {
+  color: transparent;
+}
+
 
 .White {
   color: white;
@@ -195,7 +208,6 @@ li>a {
   background-color: #ffffff;
   border-style:solid;
 }
-
 .AlfaRomeo {
   background-color: #990100;
 }
@@ -324,7 +336,7 @@ ul.RedesSociales {
 
 .RedesSociales li a {
   display: block;
-  color: #002eac;
+  color: #0742e4;
   text-align: center;
   padding: 16px 16px;
   text-decoration: none;
@@ -357,7 +369,6 @@ div .column {
   flex: 50%;
   max-width: 50%;
   padding: 0 4px;
-  margin-top: 8px;
   vertical-align: middle;
   flex-direction: row;
   text-align: center;
