@@ -15,7 +15,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 1.7vw;
+  font-size: 16px;
 }
 .topnav .icon{
   display: none;
@@ -25,6 +25,9 @@
 .topnav a:hover {
   text-decoration-line: underline;
   text-decoration-color: red;
+}
+.logo a:hover{
+  text-decoration: none;
 }
 
 .topnav .dropbtn {
@@ -93,7 +96,6 @@
   }
   .topnav.responsive a {
     float: none;
-
     display: block;
     text-align: left;
   }
@@ -191,6 +193,7 @@ li>a {
 
 .Haas {
   background-color: #ffffff;
+  border-style:solid;
 }
 
 .AlfaRomeo {
@@ -226,7 +229,6 @@ div.desc {
 }
 
 .responsive-1 {
-  margin-top: 70px;
   padding: 0 6px;
   float: left;
   width: 24.99999%;
@@ -290,12 +292,13 @@ h3 {
 
 .bordes {
   border-color: #990100;
-  border-width: 1px;
+  border-width: 0px;
   border-radius: 0px;
 }
 
 img {
-  border-radius: 8px;
+  border-radius: 0px;
+  border-style: solid;
 }
 
 /* =================Footer ================= */
@@ -340,7 +343,7 @@ ul.RedesSociales {
 
 /* ========================================================================== */
 #circuitos {
-  margin-top: 70px;
+  margin-top: 5px;
 }
 
 .row {
