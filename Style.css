@@ -178,6 +178,9 @@ li>a {
 .ProximaCarrera:hover .overlay {
   opacity: 0.7;
 }
+.ProximaCarrera:hover .image {
+  filter: blur(1px);
+}
 .texto{
   color: white;
   font-size: 3vw;
