@@ -14,4 +14,7 @@ var nombre=["Max","Daniel","Lando","Sebastian","Nicholas","Pierre","Sergio","Fer
 var apellido=["Verstappen","Ricciardo","Norris","Vettel","Latifi","Gasly","Perez","Alonso","Leclerc","Stroll","Magnussen","Tsunoda","Albon","Zhou","Ocon","Hamilton","Schumacher","Sainz","Russell","Bottas"];
 var numero=[1,3,4,5,6,10,11,14,16,18,20,22,23,24,31,44,47,55,63,77];
 
+//document.getElementById("header").innerHTML=`
+//`
+
 
