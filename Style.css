@@ -325,9 +325,8 @@ h1 {
 }
 
 h3 {
-  color: #990100;
-  margin: 0;
-
+  color: black;
+  border: none;
 }
 
 .color {
