@@ -27,5 +27,8 @@ for (let i=0; i< circuitos.length() ; i++){
 }
 document.getElementById("calendario").innerHTML=cad
 
+const hoy=fecha.getdate();
+const mesActual = fecha.getMonth() +1 ;
+
 
 
