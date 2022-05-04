@@ -6,3 +6,6 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+var circuitos = ["Bahrein","Arabia Saudita","Australia","Emilia Romagna","Miami","Espania","Monaco","Azerbaiyan","Canada","Gran Bretania","Austria","Francia","Hungria","Belgica","Paises Bajos","Italia","Singapur","Japon","Estados Unidos","Ciudad de Mexico","Sao Paulo","Abu Dhabi"];
+var dias = [20,27,10]
