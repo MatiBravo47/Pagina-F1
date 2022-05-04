@@ -137,16 +137,6 @@
   padding: 10px;
   flex: 50%;
 }
-
-/* =================Flexbox de escuderias----------------  */
-/* Crea una columna
-@media (max-width: 800px) {
-  .flex-container {
-    flex-direction: column;
-  }
-}
-*/
-
 div {
   overflow: hidden;
 }
@@ -161,6 +151,43 @@ li>a {
   font-family: 'Titillium Web', sans-serif;
   font-size:30px;
 }
+.ProximaCarrera {
+  float:right;
+  position: relative;
+  height: max-content;
+  overflow: hidden;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto; 
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.ProximaCarrera:hover .overlay {
+  opacity: 0.7;
+}
+.texto{
+  color: white;
+  font-size: 3vw;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 
 .Apellido {
   font-size: 4vw;
@@ -170,6 +197,11 @@ li>a {
 
 .Black {
   color: black;
+}
+.Text{
+  height: max-content;
+  float:right;
+  width: 50%;
 }
 .transparent {
   color: transparent;
@@ -293,9 +325,8 @@ h1 {
 }
 
 h3 {
-  color: #990100;
-  margin: 0;
-
+  color: black;
+  border: none;
 }
 
 .color {
@@ -372,6 +403,7 @@ div .column {
   vertical-align: middle;
   flex-direction: row;
   text-align: center;
+  float:right;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
