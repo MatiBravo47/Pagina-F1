@@ -15,7 +15,7 @@ var apellido=["Verstappen","Ricciardo","Norris","Vettel","Latifi","Gasly","Perez
 var numero=[1,3,4,5,6,10,11,14,16,18,20,22,23,24,31,44,47,55,63,77];
 var equipos=["Mclaren","Ferrari","Red Bull","Mercedes","Alpine","Williams","Alfa Romeo","Alpha Tauri","Aston Martin"];
 
-For (let i=0; i< circuitos.length() ; i++){
+for (let i=0; i< circuitos.length() ; i++){
 `
 <div>
   <p>dia:${dias[i]}</p>
