@@ -38,25 +38,14 @@
   padding: 14px 25px;
 }
 
-.dropdown-content a:hover {
-  background-color: red;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-
-
 .topnav .active {
-
   border: solid #0A0A00;
   border-top-color: #0A0A00;
   border-left-color: #0A0A00;
   border-bottom-color: red;
 }
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
+  .topnav a:not(:first-child) {
     display: none;
     font-size: 15px;
   }
@@ -91,28 +80,6 @@
   }
 }
 
-
-
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  font-size: 1.6vw;
-  text-align: center;
-  font-family:  tit;
-}
-
-
-.flex-item-left {
-  background-color: #EBE8E0;
-  padding: 10px;
-  flex: 50%;
-}
-
-.flex-item-right {
-  background-color: #EBE8E0;
-  padding: 10px;
-  flex: 50%;
-}
 div {
   overflow: hidden;
 }
@@ -232,67 +199,10 @@ li>a {
 }
 
 /* --------------------------------------------------------------------------- */
-/* Galeria */
-div.gallery {
-  border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-.responsive-1 {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-.responsive-2 {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive-2 {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive-2 {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* ============================================================================ */
 div>img {
   overflow: hidden;
   width: 80%;
   height: auto;
-}
-
-.desc {
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 20px;
-  font-weight: bold;
 }
 
 h1 {
