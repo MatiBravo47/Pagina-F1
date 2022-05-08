@@ -35,12 +35,13 @@
 
 .topnav .active {
   border: solid #0A0A00;
-  border-top-color: #0A0A00;
-  border-left-color: #0A0A00;
+  /* border-top-color: #0A0A00;
+  border-left-color: #0A0A00; */
   border-bottom-color: red;
 }
 
 @media screen and (max-width: 600px) {
+
   .topnav a:not(:first-child) {
     display: none;
     font-size: 15px;
@@ -60,16 +61,8 @@
     display: block;
     text-align: left;
   }
-  .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
-  .topnav.responsive .dropdown .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
-    visibility: none;
-  }
   .nombre {
-    font-size: 12px !important; 
+    font-size: 12px !important;
   }
 }
 
@@ -90,7 +83,7 @@ li>a {
 .image {
   display: block;
   width: 100%;
-  height: auto; 
+  height: auto;
 }
 .overlay {
   position: absolute;
@@ -124,7 +117,7 @@ li>a {
 .nombre {
   color: #0A0A00;
   font-weight: 600;
-  
+
 }
 
 .Apellido {
@@ -278,14 +271,14 @@ div .column {
 
 /* =============================Contacto================================ */
 input[type=text], select, textarea {
-  width: 100%; 
-  padding: 12px;  
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px; 
-  resize: vertical 
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
 }
 
 input[type=submit] {
