@@ -37,30 +37,6 @@
   text-align: center;
   padding: 14px 25px;
 }
-.dropdown {
-  float:left;
-  overflow: hidden;
-}
-
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #000000;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  align-self: center;
-  padding: 10px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  /* z-index: +1; */
-}
 
 .dropdown-content a:hover {
   background-color: red;
