@@ -3,10 +3,11 @@
   font-family: 'Titillium Web', sans-serif;
   box-sizing: border-box;
 }
-
 .topnav {
   overflow: hidden;
   background-color: #0A0A00;
+  position:fixed;
+  width: 100%;
 }
 
 .topnav a {
@@ -21,7 +22,9 @@
   display: none;
 }
 
-
+.espacio{
+  margin-top: 70px;
+}
 .topnav a:hover {
   text-decoration-line: underline;
   text-decoration-color: red;
@@ -107,6 +110,9 @@
     text-align: left;
     visibility: none;
   }
+  .nombre {
+    font-size: 12px !important; 
+  }
 }
 
 
@@ -116,6 +122,7 @@
   flex-direction: row;
   font-size: 1.6vw;
   text-align: center;
+  font-family:  tit;
 }
 
 
@@ -130,27 +137,59 @@
   padding: 10px;
   flex: 50%;
 }
-
-/* =================Flexbox de escuderias----------------  */
-/* Crea una columna
-@media (max-width: 800px) {
-  .flex-container {
-    flex-direction: column;
-  }
-}
-*/
-
 div {
   overflow: hidden;
 }
 
 .nombre {
   color: #0A0A00;
+  font-weight: 600;
+  
 }
 
 li>a {
   font-family: 'Titillium Web', sans-serif;
   font-size:30px;
+}
+.ProximaCarrera {
+  float:right;
+  position: relative;
+  height: max-content;
+  overflow: hidden;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto; 
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.ProximaCarrera:hover .overlay {
+  opacity: 0.7;
+}
+.ProximaCarrera:hover .image {
+  filter: blur(1px);
+}
+.texto{
+  color: white;
+  font-size: 3vw;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 .Apellido {
@@ -162,6 +201,15 @@ li>a {
 .Black {
   color: black;
 }
+.Text{
+  height: max-content;
+  float:right;
+  width: 50%;
+}
+.transparent {
+  color: transparent;
+}
+
 
 .White {
   color: white;
@@ -195,7 +243,6 @@ li>a {
   background-color: #ffffff;
   border-style:solid;
 }
-
 .AlfaRomeo {
   background-color: #990100;
 }
@@ -281,9 +328,8 @@ h1 {
 }
 
 h3 {
-  color: #990100;
-  margin: 0;
-
+  color: black;
+  border: none;
 }
 
 .color {
@@ -324,7 +370,7 @@ ul.RedesSociales {
 
 .RedesSociales li a {
   display: block;
-  color: #002eac;
+  color: #0742e4;
   text-align: center;
   padding: 16px 16px;
   text-decoration: none;
@@ -357,10 +403,10 @@ div .column {
   flex: 50%;
   max-width: 50%;
   padding: 0 4px;
-  margin-top: 8px;
   vertical-align: middle;
   flex-direction: row;
   text-align: center;
+  float:right;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -369,4 +415,39 @@ div .column {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+/* =============================Contacto================================ */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
