@@ -255,10 +255,6 @@ ul.RedesSociales {
   height: 2vw;
 }
 
-.RedesSociales .fijo {
-  color: white;
-}
-
 .RedesSociales li a:hover {
   background-color: transparent;
   text-align: center;
@@ -271,7 +267,6 @@ ul.RedesSociales {
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
 div .column {
   flex: 50%;
   max-width: 50%;
