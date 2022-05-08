@@ -33,17 +33,13 @@
   text-decoration: none;
 }
 
-.topnav .dropbtn {
-  text-align: center;
-  padding: 14px 25px;
-}
-
 .topnav .active {
   border: solid #0A0A00;
   border-top-color: #0A0A00;
   border-left-color: #0A0A00;
   border-bottom-color: red;
 }
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
     display: none;
@@ -53,9 +49,6 @@
     float: right;
     display: block;
   }
-}
-
-@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -83,7 +76,6 @@
 div {
   overflow: hidden;
 }
-
 
 li>a {
   font-family: 'Titillium Web', sans-serif;
