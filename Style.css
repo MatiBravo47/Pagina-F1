@@ -1,12 +1,13 @@
 * {
   margin: 0;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   box-sizing: border-box;
 }
+
 .topnav {
   overflow: hidden;
-  background-color: #0A0A00;
-  position:fixed;
+  background-color: #0a0a00;
+  position: fixed;
   width: 100%;
 }
 
@@ -18,65 +19,60 @@
   text-decoration: none;
   font-size: 16px;
 }
-.topnav .icon{
+
+.topnav .icon {
   display: none;
 }
 
-.espacio{
+.espacio {
   margin-top: 70px;
 }
+
 .topnav a:hover {
   text-decoration-line: underline;
   text-decoration-color: red;
 }
-.logo a:hover{
+
+.logo a:hover {
   text-decoration: none;
 }
 
-.topnav .dropbtn {
-  text-align: center;
-  padding: 14px 25px;
-}
-
 .topnav .active {
-  border: solid #0A0A00;
-  border-top-color: #0A0A00;
-  border-left-color: #0A0A00;
+  border: solid #0a0a00;
+  border-top-color: #0a0a00;
+  border-left-color: #0a0a00;
   border-bottom-color: red;
 }
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
     display: none;
     font-size: 15px;
   }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
+  .topnav .icon {
     position: absolute;
     right: 0;
     top: 0;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
   }
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
   }
-  .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
-  .topnav.responsive .dropdown .dropbtn {
+  .topnav {
     display: block;
     width: 100%;
     text-align: left;
     visibility: none;
+    float: none;
+    position: relative;
   }
   .nombre {
-    font-size: 12px !important; 
+    font-size: 12px !important;
   }
 }
 
@@ -84,27 +80,24 @@ div {
   overflow: hidden;
 }
 
-.nombre {
-  color: #0A0A00;
-  font-weight: 600;
-  
+li > a {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 30px;
 }
 
-li>a {
-  font-family: 'Titillium Web', sans-serif;
-  font-size:30px;
-}
 .ProximaCarrera {
-  float:right;
+  float: right;
   position: relative;
   height: max-content;
   overflow: hidden;
 }
+
 .image {
   display: block;
   width: 100%;
-  height: auto; 
+  height: auto;
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -114,17 +107,19 @@ li>a {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   background-color: black;
 }
 
 .ProximaCarrera:hover .overlay {
   opacity: 0.7;
 }
+
 .ProximaCarrera:hover .image {
   filter: blur(1px);
 }
-.texto{
+
+.texto {
   color: white;
   font-size: 3vw;
   text-align: center;
@@ -135,29 +130,32 @@ li>a {
   -ms-transform: translate(-50%, -50%);
 }
 
+.nombre {
+  color: #0a0a00;
+  font-weight: 600;
+}
+
 .Apellido {
   font-size: 4vw;
   font-weight: 600;
   margin: 0%;
 }
 
+.Text {
+  height: max-content;
+  float: right;
+  width: 50%;
+}
+
 .Black {
   color: black;
 }
-.Text{
-  height: max-content;
-  float:right;
-  width: 50%;
-}
-.transparent {
-  color: transparent;
-}
-
 
 .White {
   color: white;
 }
 
+/* COLORES EQUIPOS */
 .Ferrari {
   background-color: #fe0000;
 }
@@ -184,8 +182,9 @@ li>a {
 
 .Haas {
   background-color: #ffffff;
-  border-style:solid;
+  border-style: solid;
 }
+
 .AlfaRomeo {
   background-color: #990100;
 }
@@ -199,14 +198,14 @@ li>a {
 }
 
 /* --------------------------------------------------------------------------- */
-div>img {
+div > img {
   overflow: hidden;
   width: 80%;
   height: auto;
 }
 
 h1 {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   color: #990100;
   font-weight: 600;
   margin: 0;
@@ -216,10 +215,6 @@ h1 {
 h3 {
   color: black;
   border: none;
-}
-
-.color {
-  background-color: #A8BBB0;
 }
 
 .bordes {
@@ -235,8 +230,8 @@ img {
 
 /* =================Footer ================= */
 #pie {
-  background-color: #0A0A00;
-  Color: White;
+  background-color: #0a0a00;
+  color: White;
 }
 
 ul.RedesSociales {
@@ -274,17 +269,12 @@ ul.RedesSociales {
 }
 
 /* ========================================================================== */
-#circuitos {
-  margin-top: 5px;
-}
-
 .row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
 div .column {
   flex: 50%;
   max-width: 50%;
@@ -292,10 +282,9 @@ div .column {
   vertical-align: middle;
   flex-direction: row;
   text-align: center;
-  float:right;
+  float: right;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
   div .column {
     flex: 100%;
@@ -304,21 +293,21 @@ div .column {
 }
 
 /* =============================Contacto================================ */
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: #04AA6D;
+input[type="submit"] {
+  background-color: #04aa6d;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -326,12 +315,10 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #45a049;
 }
 
-/* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
