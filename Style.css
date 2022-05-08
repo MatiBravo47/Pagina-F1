@@ -35,8 +35,6 @@
 
 .topnav .active {
   border: solid #0A0A00;
-  /* border-top-color: #0A0A00;
-  border-left-color: #0A0A00; */
   border-bottom-color: red;
 }
 
@@ -117,7 +115,6 @@ li>a {
 .nombre {
   color: #0A0A00;
   font-weight: 600;
-
 }
 
 .Apellido {
@@ -201,11 +198,9 @@ h3 {
 .bordes {
   border-color: #990100;
   border-width: 0px;
-  border-radius: 0px;
 }
 
 img {
-  border-radius: 0px;
   border-style: solid;
 }
 
@@ -222,7 +217,6 @@ ul.RedesSociales {
   height: 70px;
   bottom: 0px;
   padding: 0;
-  /* overflow: hidden; */
   z-index: 100;
 }
 
@@ -241,7 +235,6 @@ ul.RedesSociales {
 }
 
 .RedesSociales li a:hover {
-  background-color: transparent;
   text-align: center;
 }
 
