@@ -34,6 +34,12 @@
   border: solid #0a0a00;
   border-bottom-color: red;
 }
+@media screen and (max-width: 800px){
+  div.column.contacto{
+    display: none;
+  }
+
+}
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
@@ -63,6 +69,7 @@
   .Apellido {
     font-size: 16px !important;
   }
+  
 }
 
 div {
@@ -175,10 +182,16 @@ li > a {
 }
 
 /* --------------------------------------------------------------------------- */
-div > img {
+.pilotos div > img {
   overflow: hidden;
   width: 80%;
   height: auto;
+}
+div > img {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  max-height: 550px;
 }
 
 h1 {
@@ -243,7 +256,7 @@ div .column {
   float: right;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   div .column {
     flex: 100%;
     max-width: 100%;
@@ -289,5 +302,8 @@ input[type="submit"]:hover {
   animation: bounce;
   animation-duration: 2s; 
 }
+/* .contacto {
+  width: 100%;
+} */
 
 
