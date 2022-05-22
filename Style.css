@@ -6,7 +6,7 @@
 .topnav {
   overflow: hidden;
   background-color: #0A0A00;
-  position:fixed;
+  position:static;
   width: 100%;
 }
 
@@ -22,9 +22,6 @@
   display: none;
 }
 
-.espacio{
-  margin-top: 70px;
-}
 .topnav a:hover {
   text-decoration-line: underline;
   text-decoration-color: red;
@@ -226,7 +223,7 @@ ul.RedesSociales {
 
 .RedesSociales li a {
   display: block;
-  color: #0742e4;
+  color: red;
   text-align: center;
   padding: 16px 16px;
   text-decoration: none;
@@ -270,7 +267,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #fe0000;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -279,10 +276,16 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: red;
 }
 
 .container {
   border-radius: 5px;
-  /* padding: 20px; */
+}
+.animate__lightSpeedInLeft{
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
 }
