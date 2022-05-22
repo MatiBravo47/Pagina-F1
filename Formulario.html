@@ -5,21 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
+    <!-- Vinculo con CSS -->
     <link rel="stylesheet" href="./Style.css" />
+    <!-- Vinculo con fontawesome -->
     <script
       src="https://kit.fontawesome.com/56402b4728.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Vinculo con google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;600&display=swap"
       rel="stylesheet"
     />
+    <!-- Favicon  -->
     <link rel="icon" type="image/x-icon" href="./img/F1Logofavicon.png" />
   </head>
   <body>
     <header id="header">
+      <!-- Barra de navegacion  -->
       <nav>
         <div class="topnav" id="myTopnav">
           <a class="logo" href="./Index.html"
@@ -36,44 +41,65 @@
       </nav>
     </header>
     <div class="row">
+      <!-- Primera columna  -->
       <div class="column">
+        <!-- Formulario -->
         <form action="">
           <h2>CONTACTO</h2>
           <h3>dejanos tus consultas o sugerencias</h3>
-          <label for="fname">Nombre:*</label><br />
-          <input type="text" id="fname" name="fname" value="" required autofocus autocomplete="off"/><br />
-          <label for="fname">Email:*</label><br />
-          <input type="text" id="fname" name="fname" value="" required autocomplete="off"/><br />
-          <label for="phone">Telefono:</label><br>
+          <label for="Nombre">Nombre:*</label><br />
           <input
             type="text"
+            id="Nombre"
+            name="Nombre"
+            value=""
+            required
+            autofocus
+            autocomplete="off"
+          /><br />
+          <label for="email">Email:*</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value=""
+            required
+            autocomplete="off"
+          /><br />
+          <label for="phone">Telefono:</label><br />
+          <input
+            type="tel"
             id="phone"
             name="phone"
             placeholder=""
             autocomplete="off"
           />
           <p>Mensaje:*</p>
-          <textarea name="message" rows="3" cols="10"> </textarea><br>
-          <input type="submit" value="Enviar" required/>
+          <textarea name="message" rows="3" cols="10"> </textarea><br />
+          <input type="submit" value="Enviar" required />
         </form>
       </div>
-      <div class="column "><img src="./img/Wallpaper.jpg" alt="Fondo f1"></div>
+      <!-- Segunda columna  -->
+      <div class="column">
+        <img src="./img/Wallpaper.jpg" alt="Fondo f1" style="width: 100%" />
+      </div>
     </div>
     <script src="main.js"></script>
+    <!-- Pie de pagina -->
     <footer>
       <ul class="RedesSociales">
         <li>
-          <a href="https://www.facebook.com/"
+          <a href="https://www.facebook.com/" target="_blank"
             ><i class="fa-brands fa-facebook-square fa-x"></i>Facebook</a
           >
         </li>
         <li>
-          <a href="https://www.twitter.com/"
+          <a href="https://www.twitter.com/" target="_blank"
             ><i class="fa-brands fa-twitter-square fa-x"></i>Twitter</a
           >
         </li>
         <li>
-          <a href="https://www.linkedin.com/">
+          <a href="https://www.linkedin.com/" target="_blank">
             <i class="fa-brands fa-linkedin fa-x"></i>LinkeIn</a
           >
         </li>

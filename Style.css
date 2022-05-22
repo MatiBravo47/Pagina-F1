@@ -1,12 +1,12 @@
 * {
   margin: 0;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   box-sizing: border-box;
 }
 .topnav {
   overflow: hidden;
-  background-color: #0A0A00;
-  position:static;
+  background-color: #0a0a00;
+  position: static;
   width: 100%;
 }
 
@@ -18,7 +18,7 @@
   text-decoration: none;
   font-size: 16px;
 }
-.topnav .icon{
+.topnav .icon {
   display: none;
 }
 
@@ -26,17 +26,16 @@
   text-decoration-line: underline;
   text-decoration-color: red;
 }
-.logo a:hover{
+.logo a:hover {
   text-decoration: none;
 }
 
 .topnav .active {
-  border: solid #0A0A00;
+  border: solid #0a0a00;
   border-bottom-color: red;
 }
 
 @media screen and (max-width: 600px) {
-
   .topnav a:not(:first-child) {
     display: none;
     font-size: 15px;
@@ -45,7 +44,9 @@
     float: right;
     display: block;
   }
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -68,11 +69,11 @@ div {
   overflow: hidden;
 }
 
-li>a {
-  font-size:30px;
+li > a {
+  font-size: 30px;
 }
 .ProximaCarrera {
-  float:right;
+  float: right;
   position: relative;
   height: max-content;
   overflow: hidden;
@@ -91,7 +92,7 @@ li>a {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   background-color: black;
 }
 
@@ -101,7 +102,7 @@ li>a {
 .ProximaCarrera:hover .image {
   filter: blur(1px);
 }
-.texto{
+.texto {
   color: white;
   font-size: 3vw;
   text-align: center;
@@ -112,7 +113,7 @@ li>a {
   -ms-transform: translate(-50%, -50%);
 }
 .nombre {
-  color: #0A0A00;
+  color: #0a0a00;
   font-weight: 600;
 }
 
@@ -121,9 +122,9 @@ li>a {
   font-weight: 600;
   margin: 0%;
 }
-.Text{
+.Text {
   height: max-content;
-  float:right;
+  float: right;
   width: 50%;
 }
 .Black {
@@ -159,7 +160,7 @@ li>a {
 
 .Haas {
   background-color: #ffffff;
-  border-style:solid;
+  border-style: solid;
 }
 .AlfaRomeo {
   background-color: #990100;
@@ -174,12 +175,11 @@ li>a {
 }
 
 /* --------------------------------------------------------------------------- */
-div>img {
+div > img {
   overflow: hidden;
   width: 80%;
   height: auto;
 }
-
 
 h1 {
   color: #990100;
@@ -202,10 +202,6 @@ img {
 }
 
 /* =================Footer ================= */
-#pie {
-  background-color: #0A0A00;
-  Color: White;
-}
 
 ul.RedesSociales {
   list-style-type: none;
@@ -244,7 +240,7 @@ div .column {
   vertical-align: middle;
   flex-direction: row;
   text-align: center;
-  float:right;
+  float: right;
 }
 
 @media (max-width: 600px) {
@@ -255,7 +251,11 @@ div .column {
 }
 
 /* =============================Contacto================================ */
-input[type=text], select, textarea {
+input[type="email" ],
+input[type="tel" ],
+input[type="text" ],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -263,10 +263,10 @@ input[type=text], select, textarea {
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
-  resize: vertical
+  resize: vertical;
 }
 
-input[type=submit] {
+input[type="submit"] {
   background-color: #fe0000;
   color: white;
   padding: 12px 20px;
@@ -275,17 +275,18 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: red;
 }
 
 .container {
   border-radius: 5px;
 }
-.animate__lightSpeedInLeft{
+/*Animacion de logo y titulos en index.html*/
+.animate__lightSpeedInLeft {
   display: inline-block;
   margin: 0 0.5rem;
-
-  animation: bounce; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
+  animation: bounce;
+  animation-duration: 2s; 
 }
+
