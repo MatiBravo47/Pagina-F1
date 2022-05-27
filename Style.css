@@ -6,7 +6,7 @@
 .topnav {
   overflow: hidden;
   background-color: #0a0a00;
-  position: static;
+  position: fixed;
   width: 100%;
 }
 
@@ -51,7 +51,7 @@
     display: block;
   }
   .topnav.responsive {
-    position: relative;
+    position: fixed;
   }
   .topnav.responsive .icon {
     position: absolute;
@@ -184,7 +184,7 @@ li > a {
 /* --------------------------------------------------------------------------- */
 .pilotos div > img {
   overflow: hidden;
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 div > img {
@@ -206,8 +206,7 @@ h2 {
 }
 
 .bordes {
-  border-color: #990100;
-  border-width: 0px;
+  border: 0px solid #990100 ;
 }
 
 img {
@@ -254,6 +253,33 @@ div .column {
   flex-direction: row;
   text-align: center;
   float: right;
+}
+div .column.pilotos{
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 4px ;
+  vertical-align: middle;
+  flex-direction: row;
+  text-align: center;
+  float: right;
+}
+@media (max-width: 1000px) {
+  div .column.pilotos {
+    flex: 100%;
+    max-width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  div .column.pilotos {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .pilotos div > img {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+  }
+
 }
 
 @media (max-width: 800px) {
@@ -302,8 +328,9 @@ input[type="submit"]:hover {
   animation: bounce;
   animation-duration: 2s; 
 }
-/* .contacto {
-  width: 100%;
-} */
+.espacio{
+  margin-top: 67px;
+}
+
 
 
