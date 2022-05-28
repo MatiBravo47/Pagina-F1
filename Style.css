@@ -167,7 +167,7 @@ li > a {
 
 .Haas {
   background-color: #ffffff;
-  border-style: solid;
+  border: 1px solid;
 }
 .AlfaRomeo {
   background-color: #990100;
