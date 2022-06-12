@@ -335,7 +335,7 @@ input[type="submit"]:hover {
 }
 div .pilotos div:hover {
   border: 3px solid rgba(0, 0, 0, 0,19);
-  opacity: 1;
+  opacity: 1;  
 }
 .column.pilotos div:hover {
   border: 3px solid rgb(0, 0, 0);
@@ -391,7 +391,26 @@ div .pilotos div:hover {
   background-color: white;
   border-radius: 7px;
 }
+.marcoFoto {
+  overflow: hidden; /*esta propiedad evita que la imagen ocupe mas espacio que su contenedor*/
+  border: 5px solid #FFF;
+  box-sizing:border-box;
+  float:left;
+}
 
+.marcoFoto img {
+  transition: all .4s ease;
+  width:100%;
+}
+
+.marcoFoto img:hover {
+  transform:scale(1.2) ; /*cuando nos posicionamos sobre la imagen con esta propiedad aumentamos su escala y ademas la giramos*/
+}
+.contenedor2{
+  margin:100px auto; 
+  max-width:960px;
+  width:100%;
+}
 
 
 
