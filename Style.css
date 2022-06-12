@@ -8,6 +8,7 @@
   background-color: #0a0a00;
   position: fixed;
   width: 100%;
+  z-index: +99;
 }
 
 .topnav a {
@@ -104,7 +105,7 @@ li > a {
 }
 
 .ProximaCarrera:hover .overlay {
-  opacity: 0.7;
+  opacity: 0,7;
 }
 .ProximaCarrera:hover .image {
   filter: blur(1px);
@@ -211,6 +212,7 @@ h2 {
 
 img {
   border-style: solid;
+  opacity: 1;
 }
 
 /* =================Footer ================= */
@@ -332,11 +334,66 @@ input[type="submit"]:hover {
   margin-top: 67px;
 }
 div .pilotos div:hover {
+  border: 3px solid rgba(0, 0, 0, 0,19);
+  opacity: 1;
+}
+.column.pilotos div:hover {
   border: 3px solid rgb(0, 0, 0);
 }
-.column div:hover {
-  border: 3px solid rgb(0, 0, 0);
+/*overlay pilotos*/
+* {box-sizing: border-box}
+
+.contenedor {
+  position: relative;
+  width: 100%;
 }
+
+.imagen {
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: -99;
+}
+
+.overlay2 {
+  position:absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.8); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 20px;
+  text-align: center;
+}
+
+.contenedor:hover .overlay2 {
+  opacity: 1;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("./img/11.jpg");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.formulario{
+  background-color: white;
+  border-radius: 7px;
+}
+
+
+
 
 
 
