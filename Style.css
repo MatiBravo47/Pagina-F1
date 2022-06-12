@@ -24,23 +24,35 @@
 }
 
 .topnav a:hover {
-  text-decoration-line: underline;
-  text-decoration-color: red;
+  border:solid #0a0a00;
+  border-bottom-color:red ;
+  border-width: 4px;
+  padding-bottom: 7px;
+  color: #ccc;
 }
-.logo a:hover {
-  text-decoration: none;
+a.logo:hover{
+  border:solid #0a0a00;
+  padding-bottom: 5px;
+  border-width: 0;
 }
+a.icon:hover{
+  border:solid #0a0a00 !important;
+  border-width: 0;
+  text-decoration: none !important;
 
+}
 .topnav .active {
   border: solid #0a0a00;
   border-bottom-color: red;
+  border-width: 4px;
+  padding-bottom:7px ;
 }
-@media screen and (max-width: 800px){
+/*@media screen and (max-width: 500px){
   div.column.contacto{
     display: none;
   }
 
-}
+}*/
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
@@ -68,7 +80,7 @@
     font-size: 16px !important;
   }
   .Apellido {
-    font-size: 16px !important;
+    font-size: 40px !important;
   }
   
 }
@@ -411,6 +423,9 @@ div .pilotos div:hover {
   max-width:960px;
   width:100%;
 }
+
+
+
 
 
 
