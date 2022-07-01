@@ -19,12 +19,12 @@ var data=[
   },
   {Codigo:"cod3",
   nombre:"Max Verstappen",
-  equipo:"Red Bull",
+  equipo:"Red Bull Racing",
   PTS:175
   },
   {Codigo:"cod4",
   nombre:"Checo Perez",
-  equipo:"Red Bull",
+  equipo:"Red Bull Racing",
   PTS:129
   },
   {Codigo:"cod5",
@@ -49,12 +49,12 @@ var data=[
   },
   {Codigo:"cod9",
   nombre:"Kevin Magnussen",
-  equipo:"Haas",
+  equipo:"Haas F1 Team",
   PTS:15
   },
   {Codigo:"cod10",
   nombre:"Mick Schumacher",
-  equipo:"Haas",
+  equipo:"Haas F1 Team",
   PTS:0
   },
   {Codigo:"cod11",
@@ -69,12 +69,12 @@ var data=[
   },
   {Codigo:"cod13",
   nombre:"Yuki Tsunoda",
-  equipo:"Alpha Tauri",
+  equipo:"AlphaTauri",
   PTS:11
   },
   {Codigo:"cod14",
   nombre:"Pierre Gasly",
-  equipo:"Alpha Tauri",
+  equipo:"AlphaTauri",
   PTS:16
   },
   {Codigo:"cod15",
