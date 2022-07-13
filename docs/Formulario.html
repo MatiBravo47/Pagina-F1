@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <!-- Vinculo con CSS -->
+    <link rel="stylesheet" href="./Style.css" />
+    <!-- Vinculo con fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/56402b4728.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Vinculo con google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon  -->
+    <link rel="icon" type="image/x-icon" href="./img/F1Logofavicon.png" />
+  </head>
+  <body>
+    <header id="header">
+      <!-- Barra de navegacion  -->
+      <nav>
+        <div class="topnav" id="myTopnav">
+          <a class="logo" href="./Index.html"
+            ><img class="bordes" src="./img/LogoF1.png" height="20vw" />
+          </a>
+          <a href="Index.html">Inicio</a>
+          <a href="Pilotos.html">Pilotos</a>
+          <a href="Escuderias.html">Escuderias</a>
+          <a href="clasiPilotos.html">Mundial pilotos</a>
+          <a class="active" href="Formulario.html">Contacto</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+            >&#9776;</a
+          >
+        </div>
+      </nav>
+    </header>
+    <main>
+    <div class="row bg-img">
+      <!-- Primera columna  -->
+      <div class="espacio column  ">
+        <!-- Formulario -->
+        <div class="formulario">
+        <form action="">
+          <h2>CONTACTO</h2>
+          <h3>dejanos tus consultas o sugerencias</h3>
+          <label for="Nombre">Nombre:*</label><br />
+          <input
+            type="text"
+            id="Nombre"
+            name="Nombre"
+            value=""
+            required
+            autofocus
+            autocomplete="off"
+          /><br />
+          <label for="email">Email:*</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value=""
+            required
+            autocomplete="off"
+          /><br />
+          <label for="phone">Telefono:</label><br />
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder=""
+            autocomplete="off"
+          />
+          <p>Mensaje:*</p>
+          <textarea name="message" rows="3" cols="10"> </textarea><br />
+          <input type="submit" value="Enviar" required />
+        </form>
+      </div>
+      </div>
+      <!-- Segunda columna  -->
+      <!-- <div class="espacio column contacto">
+        <img src="./img/Wallpaper.jpg" alt="Fondo f1"  />
+      </div> -->
+    </div>
+    <script src="main.js"></script>
+    <!-- Pie de pagina -->
+  </main>
+    <footer>
+      <ul class="RedesSociales">
+        <li>
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i class="fa-brands fa-facebook-square fa-x"></i>Facebook</a
+          >
+        </li>
+        <li>
+          <a href="https://www.twitter.com/" target="_blank"
+            ><i class="fa-brands fa-twitter-square fa-x"></i>Twitter</a
+          >
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/" target="_blank">
+            <i class="fa-brands fa-linkedin fa-x"></i>LinkedIn</a
+          >
+        </li>
+        <li><a class="White">Contacto:</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
