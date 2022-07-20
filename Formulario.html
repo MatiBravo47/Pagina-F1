@@ -42,55 +42,60 @@
       </nav>
     </header>
     <main>
-    <div class="row bg-img">
-      <!-- Primera columna  -->
-      <div class="espacio column  ">
-        <!-- Formulario -->
-        <div class="formulario">
-        <form action="">
-          <h2>CONTACTO</h2>
-          <h3>dejanos tus consultas o sugerencias</h3>
-          <label for="Nombre">Nombre:*</label><br />
-          <input
-            type="text"
-            id="Nombre"
-            name="Nombre"
-            value=""
-            required
-            autofocus
-            autocomplete="off"
-          /><br />
-          <label for="email">Email:*</label><br />
-          <input
-            type="email"
-            id="email"
-            name="email"
-            value=""
-            required
-            autocomplete="off"
-          /><br />
-          <label for="phone">Telefono:</label><br />
-          <input
-            type="tel"
-            id="phone"
-            name="phone"
-            placeholder=""
-            autocomplete="off"
-          />
-          <p>Mensaje:*</p>
-          <textarea name="message" rows="3" cols="10"> </textarea><br />
-          <input type="submit" value="Enviar" required />
-        </form>
-      </div>
-      </div>
-      <!-- Segunda columna  -->
-      <!-- <div class="espacio column contacto">
+      <div class="row bg-img">
+        <!-- Primera columna  -->
+        <div class="espacio column">
+          <!-- Formulario -->
+          <div class="formulario">
+            <form action="">
+              <h2>CONTACTO</h2>
+              <h3>dejanos tus consultas o sugerencias</h3>
+              <label for="Nombre">Nombre:*</label><br />
+              <input
+                type="text"
+                id="Nombre"
+                name="Nombre"
+                value=""
+                required
+                autofocus
+                autocomplete="off"
+              /><br />
+              <label for="email" class="form-label">Email:*</label><br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                value=""
+                required
+                autocomplete="off"
+                class="form-control"  
+                placeholder="nombre@ejemplo.com"            
+              />
+              <br />
+              <label for="phone">Telefono:</label><br />
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder=""
+                autocomplete="off"
+              />
+              <p>Mensaje:*</p>
+              <textarea name="message" rows="3" cols="10"> </textarea><br />
+              <input type="submit" value="Enviar" required />
+            </form>
+          </div>
+        </div>
+        <!-- Segunda columna  -->
+        <!-- <div class="espacio column contacto">
         <img src="./img/Wallpaper.jpg" alt="Fondo f1"  />
+
       </div> -->
-    </div>
-    <script src="main.js"></script>
-    <!-- Pie de pagina -->
-  </main>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+      <script src="main.js"></script>
+      <!-- Pie de pagina -->
+    </main>
     <footer>
       <ul class="RedesSociales">
         <li>
