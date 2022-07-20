@@ -190,7 +190,7 @@ cad=`
       </tr>
   `
 //y ademas tiene un contenido que varia segun su data
-for (var i=0; i<pilotos.length; i++) {
+for (let i=0; i<pilotos.length; i++) {
     cad+= `
         <tr>
             <td>${i+1}</td>
