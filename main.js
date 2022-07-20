@@ -51,7 +51,7 @@ var pilotos=[
   {
   nombre:"Daniel Ricciardo",
   equipo:"Mclaren",
-  logo:"img/logoE/Mclaren.png",
+  logo:"img/LogoE/Mclaren.png",
   bandera:"img/BanderasP/Australia.jpg",
   foto:"./img/Pilotos/Ricciardo.jpg",
   PTS:15
@@ -59,7 +59,7 @@ var pilotos=[
   {
   nombre:"Fernando Alonso",
   equipo:"Alpine",
-  logo:"img/logoE/Alpine.png",
+  logo:"img/LogoE/Alpine.png",
   bandera:"img/BanderasP/Espania.jpg",
   foto:"./img/Pilotos/Alonso.jpg",
   PTS:18 + 10
@@ -67,7 +67,7 @@ var pilotos=[
   {
   nombre:"Esteban Ocon",
   equipo:"Alpine",
-  logo:"img/logoE/Alpine.png",
+  logo:"img/LogoE/Alpine.png",
   bandera:"img/BanderasP/Francia.jpg",
   foto:"./img/Pilotos/Ocon.jpg",
   PTS:39
@@ -75,7 +75,7 @@ var pilotos=[
   {
   nombre:"Kevin Magnussen",
   equipo:"Haas F1 Team",
-  logo:"img/logoE/Haas.png",
+  logo:"img/LogoE/Haas.png",
   bandera:"img/BanderasP/Dinamarca.jpg",
   foto:"./img/Pilotos/Magnussen.jpg",
   PTS:15 + 1
@@ -83,7 +83,7 @@ var pilotos=[
   {
   nombre:"Mick Schumacher",
   equipo:"Haas F1 Team",
-  logo:"img/logoE/Haas.png",
+  logo:"img/LogoE/Haas.png",
   bandera:"img/BanderasP/Alemania.jpg",
   foto:"./img/Pilotos/Schumacher.jpg",
   PTS:0+4
@@ -91,7 +91,7 @@ var pilotos=[
   {
   nombre:"Lewis Hamilton",
   equipo:"Mercedes",
-  logo:"img/logoE/Mercedes.png",
+  logo:"img/LogoE/Mercedes.png",
   bandera:"img/BanderasP/ReinoUnido.jpg",
   foto:"./img/Pilotos/Hamilton.jpg",
   PTS:77 + 16
@@ -99,7 +99,7 @@ var pilotos=[
   {
   nombre:"George Russell",
   equipo:"Mercedes",
-  logo:"img/logoE/Mercedes.png",
+  logo:"img/LogoE/Mercedes.png",
   bandera:"img/BanderasP/ReinoUnido.jpg",
   foto:"./img/Pilotos/Russell.jpg",
   PTS:111
@@ -107,7 +107,7 @@ var pilotos=[
   {
   nombre:"Yuki Tsunoda",
   equipo:"AlphaTauri",
-  logo:"img/logoE/AlphaTauri.png",
+  logo:"img/LogoE/AlphaTauri.png",
   bandera:"img/BanderasP/Japon.jpg",
   foto:"./img/Pilotos/Tsunoda.jpg",
   PTS:11
@@ -115,7 +115,7 @@ var pilotos=[
   {
   nombre:"Pierre Gasly",
   equipo:"AlphaTauri",
-  logo:"img/logoE/AlphaTauri.png",
+  logo:"img/LogoE/AlphaTauri.png",
   bandera:"img/BanderasP/Francia.jpg",
   foto:"./img/Pilotos/Gasly.jpg",
   PTS:16
@@ -123,7 +123,7 @@ var pilotos=[
   {
   nombre:"Valtteri Bottas",
   equipo:"Alfa Romeo",
-  logo:"img/logoE/AlfaRomeo.png",
+  logo:"img/LogoE/AlfaRomeo.png",
   bandera:"img/BanderasP/Finlandia.jpg",
   foto:"./img/Pilotos/Bottas.jpg",
   PTS:46
@@ -131,7 +131,7 @@ var pilotos=[
   {
   nombre:"Zhou Gaunyu",
   equipo:"Alfa Romeo",
-  logo:"img/logoE/AlfaRomeo.png",
+  logo:"img/LogoE/AlfaRomeo.png",
   bandera:"img/BanderasP/China.jpg",
   foto:"./img/Pilotos/Gaunyu.jpg",
   PTS:5
@@ -139,7 +139,7 @@ var pilotos=[
   {
   nombre:"Nicholas Latifi",
   equipo:"Williams",
-  logo:"img/logoE/Williams.png",
+  logo:"img/LogoE/Williams.png",
   bandera:"img/BanderasP/Canada.jpg",
   foto:"./img/Pilotos/Latifi.jpg",
   PTS:0
@@ -147,7 +147,7 @@ var pilotos=[
   {
   nombre:"Alexander Albon",
   equipo:"Williams",
-  logo:"img/logoE/Williams.png",
+  logo:"img/LogoE/Williams.png",
   bandera:"img/BanderasP/Tailandia.jpg",
   foto:"./img/Pilotos/Albon.jpg",
   PTS:3
@@ -155,7 +155,7 @@ var pilotos=[
   {
   nombre:"Sebastian Vettel",
   equipo:"Aston Martin",
-  logo:"img/logoE/AstonMartin.png",
+  logo:"img/LogoE/AstonMartin.png",
   bandera:"img/BanderasP/Alemania.jpg",
   foto:"./img/Pilotos/Vettel.jpg",
   PTS:13 + 2 
@@ -163,7 +163,7 @@ var pilotos=[
   {
   nombre:"Lance Stroll",
   equipo:"Aston Martin",
-  logo:"img/logoE/AstonMartin.png",
+  logo:"img/LogoE/AstonMartin.png",
   bandera:"img/BanderasP/Canada.jpg",
   foto:"./img/Pilotos/Stroll.jpg",
   PTS:3
