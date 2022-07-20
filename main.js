@@ -11,7 +11,7 @@ var pilotos=[
   {
   nombre:"Carlos Sainz",
   equipo:"Ferrari",
-  logo:"img/logoE/Ferrari.png",
+  logo:"img/LogoE/Ferrari.png",
   bandera:"img/BanderasP/Espania.jpg",
   foto:"./img/Pilotos/Sainz.jpg",
   PTS:102+25,
@@ -19,7 +19,7 @@ var pilotos=[
   {
   nombre:"Charles Leclerc",
   equipo:"Ferrari",
-  logo:"img/logoE/Ferrari.png",
+  logo:"img/LogoE/Ferrari.png",
   bandera:"img/BanderasP/Monaco.jpg",
   foto:"./img/Pilotos/Lecrerc.jpg",
   PTS:126 + 12
@@ -27,7 +27,7 @@ var pilotos=[
   {
   nombre:"Max Verstappen",
   equipo:"Red Bull",
-  logo:"img/logoE/RedBull.png",
+  logo:"img/LogoE/RedBull.png",
   bandera:"img/BanderasP/Holanda.jpg",
   foto:"./img/Pilotos/Max Verstappen.jpg",
   PTS:175 + 6
@@ -35,7 +35,7 @@ var pilotos=[
   {
   nombre:"Checo Perez",
   equipo:"Red Bull",
-  logo:"img/logoE/RedBull.png",
+  logo:"img/LogoE/RedBull.png",
   bandera:"img/BanderasP/Mexico.jpg",
   foto:"./img/Pilotos/Perez.jpg",
   PTS:129 + 18
@@ -43,7 +43,7 @@ var pilotos=[
   {
   nombre:"Lando Norris",
   equipo:"Mclaren",
-  logo:"img/logoE/Mclaren.png",
+  logo:"img/LogoE/Mclaren.png",
   bandera:"img/BanderasP/ReinoUnido.jpg",
   foto:"./img/Pilotos/Norris.jpg",
   PTS:50 + 8
