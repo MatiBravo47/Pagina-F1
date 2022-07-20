@@ -180,7 +180,6 @@ porPuntos.sort(function(a,b) {
 if ( document.getElementById( "idtabla" )) {
 //encabezado fijo tabla
 cad=`
-    <p class="h1">Clasificacion mundial de pilotos<p>
     <table class="table table-hover table-dark">
       <tr>
         <th>Pos</th>
