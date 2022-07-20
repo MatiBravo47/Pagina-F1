@@ -80,7 +80,7 @@ a.icon:hover{
     font-size: 16px !important;
   }
   .Apellido {
-    font-size: 40px !important;
+    font-size: 20px !important;
   }
   
 }
@@ -138,7 +138,7 @@ li > a {
 }
 
 .Apellido {
-  font-size: 3vw;
+  font-size: 2vw;
   font-weight: 600;
   margin: 0%;
 }
@@ -157,41 +157,80 @@ li > a {
 .Ferrari {
   background-color: #fe0000;
 }
+#gradFerrari {
+  background-color: #fe0000; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right,#fe0000, black);
+}
 
 .Mercedes {
   background-color: #02a09b;
+}
+#gradMercedes {
+  background-color: #02a09b; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right,#02a09b, white);
 }
 
 .RedBull {
   background-color: #14195b;
 }
+#gradRedBull {
+  background-color: #14195b; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right,#14195b, black);
+}
 
 .Mclaren {
   background-color: #fd8000;
+}
+#gradMclaren {
+  background-color: #fd8000; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right,#fd8000, white);
 }
 
 .Williams {
   background-color: #041e41;
 }
+#gradWilliams {
+  background-color: #041e41; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right,#041e41, black);
+}
 
 .AstonMartin {
   background-color: #015a50;
 }
+#gradAstonMartin {
+  background-color: #015a50; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right,#015a50, black);
+}
 
 .Haas {
-  background-color: #ffffff;
-  border: 1px solid;
+  background-color: #DADADA;
+}
+#gradHaas {
+  background-color: #DADADA; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right,#DADADA, white);
 }
 .AlfaRomeo {
   background-color: #990100;
+}
+#gradAlfaRomeo {
+  background-color: #990100; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right,#990100, black);
 }
 
 .AlphaTauri {
   background-color: #022a4a;
 }
+#gradAlphaTauri {
+  background-color: #022a4a; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right,#022a4a, black);
+}
 
 .Alpine {
   background-color: #0f1c2c;
+}
+#gradAlpine {
+  background-color: #0f1c2c; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right,#0f1c2c, black);
 }
 
 /* --------------------------------------------------------------------------- */
@@ -237,6 +276,7 @@ ul.RedesSociales {
   bottom: 0px;
   padding: 0;
   z-index: 100;
+  margin-bottom: 0px;
 }
 
 .RedesSociales li {
@@ -256,7 +296,7 @@ ul.RedesSociales {
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 4px 0;
 }
 
 div .column {
@@ -418,11 +458,12 @@ div .pilotos div:hover {
 .marcoFoto img:hover {
   transform:scale(1.2) ; /*cuando nos posicionamos sobre la imagen con esta propiedad aumentamos su escala y ademas la giramos*/
 }
-.contenedor2{
-  margin:100px auto; 
-  max-width:960px;
-  width:100%;
+.fondo-card {
+  background-image: url("./img/Banderas/Abu\ Dhabi.svg");
+  background-repeat: no-repeat;
+  background-position: 0% right; 
 }
+
 
 
 
