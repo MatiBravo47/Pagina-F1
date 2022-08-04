@@ -209,18 +209,3 @@ cad+=`
     
 document.getElementById("idtabla").innerHTML = cad;
 }
-
-//Codigo para pilotos 
-
-//for (var col = 0; col < 4; col++ ) {
-//  for (var fil = 0; fil < 5; fil++){
-//    pil+=`<div class="${equipo[i]} contenedor">
-//      <span class="Apellido White"><b>${nombre[i]}</b></span>
-//
-//
-//  }
-//}
-
-
-
-

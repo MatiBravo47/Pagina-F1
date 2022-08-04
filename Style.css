@@ -2,6 +2,10 @@
   margin: 0;
   font-family: "Titillium Web", sans-serif;
   box-sizing: border-box;
+  
+}
+body {
+  background-color: #0D1117;
 }
 .topnav {
   overflow: hidden;
@@ -54,7 +58,7 @@ a.icon:hover{
 
 }*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 616px) {
   .topnav a:not(:first-child) {
     display: none;
     font-size: 15px;
@@ -254,7 +258,7 @@ h1 {
 }
 
 h2 {
-  color: black;
+  color: white;
 }
 
 .bordes {
@@ -307,33 +311,6 @@ div .column {
   flex-direction: row;
   text-align: center;
   float: right;
-}
-div .column.pilotos{
-  flex: 25%;
-  max-width: 50%;
-  padding: 0 4px ;
-  vertical-align: middle;
-  flex-direction: row;
-  text-align: center;
-  float: right;
-}
-@media (max-width: 1000px) {
-  div .column.pilotos {
-    flex: 100%;
-    max-width: 50%;
-  }
-}
-@media (max-width: 600px) {
-  div .column.pilotos {
-    flex: 100%;
-    max-width: 100%;
-  }
-  .pilotos div > img {
-    overflow: hidden;
-    width: 100%;
-    height: auto;
-  }
-
 }
 
 @media (max-width: 800px) {
@@ -392,8 +369,6 @@ div .pilotos div:hover {
 .column.pilotos div:hover {
   border: 3px solid rgb(0, 0, 0);
 }
-/*overlay pilotos*/
-* {box-sizing: border-box}
 
 .contenedor {
   position: relative;
