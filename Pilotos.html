@@ -55,10 +55,11 @@
               <div class="card mb-3 shadow-lg bg-body p-2 rounded">
                 <img :src="piloto.foto" class="card-img-top" alt="..." />
                 <div
-                class="card-body AlfaRomeo text-white"
+                class="card-body"
                 v-bind="{id:piloto.gradiente}"
               >
-                  <h5 class="card-title">{{piloto.nombre}}</h5>
+                  <h5 class="card-title"
+                  v-bind="{class:piloto.text}">{{piloto.nombre}}</h5>
                   <p class="card-text">
                     <!-- This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
