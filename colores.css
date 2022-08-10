@@ -1,0 +1,81 @@
+/* COLORES EQUIPOS */
+.Ferrari {
+  background-color: #fe0000;
+}
+#gradFerrari {
+  background-color: #fe0000; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #fe0000, black);
+}
+
+.Mercedes {
+  background-color: #02a09b;
+}
+#gradMercedes {
+  background-color: #02a09b; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #02a09b, white);
+}
+
+.RedBull {
+  background-color: #14195b;
+}
+#gradRedBull {
+  background-color: #14195b; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #14195b, black);
+}
+
+.Mclaren {
+  background-color: #fd8000;
+}
+#gradMclaren {
+  background-color: #fd8000; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #fd8000, white);
+}
+
+.Williams {
+  background-color: #041e41;
+}
+#gradWilliams {
+  background-color: #041e41; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #041e41, black);
+}
+
+.AstonMartin {
+  background-color: #015a50;
+}
+#gradAstonMartin {
+  background-color: #015a50; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #015a50, black);
+}
+
+.Haas {
+  background-color: #dadada;
+}
+#gradHaas {
+  background-color: #dadada; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #dadada, white);
+}
+.AlfaRomeo {
+  background-color: #990100;
+}
+#gradAlfaRomeo {
+  background-color: #990100; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #990100, black);
+}
+
+.AlphaTauri {
+  background-color: #022a4a;
+}
+#gradAlphaTauri {
+  background-color: #022a4a; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #022a4a, black);
+}
+
+.Alpine {
+  background-color: #0f1c2c;
+}
+#gradAlpine {
+  background-color: #0f1c2c; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #0f1c2c, black);
+}
+
+/* --------------------------------------------------------------------------- */

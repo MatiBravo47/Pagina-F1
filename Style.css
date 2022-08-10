@@ -2,12 +2,12 @@
   margin: 0;
   font-family: "Titillium Web", sans-serif;
   box-sizing: border-box;
-  
 }
 body {
-  background-color: #0D1117;
+  background-color: #0d1117;
 }
-/*------------ Barra de navegacion ----------------------*/
+/*===============Barra de navegacion ===================*/
+/* navbar */
 .topnav {
   overflow: hidden;
   background-color: #0a0a00;
@@ -29,28 +29,27 @@ body {
 }
 
 .topnav a:hover {
-  border:solid #0a0a00;
-  border-bottom-color:red ;
+  border: solid #0a0a00;
+  border-bottom-color: red;
   border-width: 4px;
   padding-bottom: 7px;
   color: #ccc;
 }
-a.logo:hover{
-  border:solid #0a0a00;
+a.logo:hover {
+  border: solid #0a0a00;
   padding-bottom: 5px;
   border-width: 0;
 }
-a.icon:hover{
-  border:solid #0a0a00 !important;
+a.icon:hover {
+  border: solid #0a0a00 !important;
   border-width: 0;
   text-decoration: none !important;
-
 }
 .topnav .active {
   border: solid #0a0a00;
   border-bottom-color: red;
   border-width: 4px;
-  padding-bottom:7px ;
+  padding-bottom: 7px;
 }
 
 @media screen and (max-width: 616px) {
@@ -77,160 +76,73 @@ a.icon:hover{
   }
   .nombre {
     font-size: 16px !important;
-  }  
+  }
 }
-
 div {
   overflow: hidden;
 }
-
 li > a {
   font-size: 30px;
 }
+/* Fin barra de navegacion  */
+
+
+
+
+/*=============== proximacarrera css ========================*/
+/* =============imagen proxima carrera =======================*/
+.imagen {
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: -99;
+}
+/* =============overlay de proxima carrera==================  */
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.8); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 20px;
+  text-align: center;
+}
+
+.contenedor:hover .overlay2 {
+  opacity: 1;
+}
+
 .ProximaCarrera {
   float: right;
   position: relative;
   height: max-content;
   overflow: hidden;
 }
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.5s ease;
-  background-color: black;
-}
 
 .ProximaCarrera:hover .overlay {
-  opacity: 0,7;
+  opacity: 0, 7;
 }
 .ProximaCarrera:hover .image {
   filter: blur(1px);
 }
-.nombre {
-  color: #0a0a00;
-  font-weight: 600;
-}
-
-.Apellido {
-  font-size: 2vw;
-  font-weight: 600;
-  margin: 0%;
-}
-.Text {
-  height: max-content;
-  float: right;
-  width: 50%;
-}
-.Black {
-  color: black;
-}
-.White {
-  color: white !important;
-}
-/* COLORES EQUIPOS */
-.Ferrari {
-  background-color: #fe0000;
-}
-#gradFerrari {
-  background-color: #fe0000; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right,#fe0000, black);
-}
-
-.Mercedes {
-  background-color: #02a09b;
-}
-#gradMercedes {
-  background-color: #02a09b; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right,#02a09b, white);
-}
-
-.RedBull {
-  background-color: #14195b;
-}
-#gradRedBull {
-  background-color: #14195b; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right,#14195b, black);
-}
-
-.Mclaren {
-  background-color: #fd8000;
-}
-#gradMclaren {
-  background-color: #fd8000; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right,#fd8000, white);
-}
-
-.Williams {
-  background-color: #041e41;
-}
-#gradWilliams {
-  background-color: #041e41; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right,#041e41, black);
-}
-
-.AstonMartin {
-  background-color: #015a50;
-}
-#gradAstonMartin {
-  background-color: #015a50; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right,#015a50, black);
-}
-
-.Haas {
-  background-color: #DADADA;
-}
-#gradHaas {
-  background-color: #DADADA; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right,#DADADA, white);
-}
-.AlfaRomeo {
-  background-color: #990100;
-}
-#gradAlfaRomeo {
-  background-color: #990100; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right,#990100, black);
-}
-
-.AlphaTauri {
-  background-color: #022a4a;
-}
-#gradAlphaTauri {
-  background-color: #022a4a; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right,#022a4a, black);
-}
-
-.Alpine {
-  background-color: #0f1c2c;
-}
-#gradAlpine {
-  background-color: #0f1c2c; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right,#0f1c2c, black);
-}
-
-/* --------------------------------------------------------------------------- */
-.pilotos div > img {
-  overflow: hidden;
+.contenedor {
+  position: relative;
   width: 100%;
-  height: auto;
 }
+
 div > img {
   overflow: hidden;
   width: 100%;
   height: auto;
   max-height: 550px;
 }
-
+/* ==============titulos================== */
 h1 {
   color: #990100;
   font-weight: 600;
@@ -242,14 +154,10 @@ h2 {
   color: white;
 }
 
-.bordes {
-  border: 0px solid #990100 ;
+h5 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
 }
-
- /* img {
-  border-style: solid;
-  opacity: 1;
-}  */
 
 /* =================Footer ================= */
 
@@ -283,141 +191,9 @@ ul.RedesSociales {
   flex-wrap: wrap;
   /* padding: 4px 0; */
 }
-
-div .column {
-  flex: 50%;
-  max-width: 50%;
-  padding: 0 4px;
-  vertical-align: middle;
-  flex-direction: row;
-  text-align: center;
-  float: right;
-}
-
-@media (max-width: 800px) {
-  div .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-/* =============================Contacto================================ */
-input[type="email" ],
-input[type="tel" ],
-input[type="text" ],
-select,
-textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type="submit"] {
-  background-color: #fe0000;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: red;
-}
-
 .container {
   border-radius: 5px;
 }
-/*Animacion de logo y titulos en index.html*/
-.animate__lightSpeedInLeft {
-  display: inline-block;
-  margin: 0 0.5rem;
-  animation: bounce;
-  animation-duration: 2s; 
-}
-.espacio{
+.espacio {
   margin-top: 67px;
 }
-div .pilotos div:hover {
-  border: 3px solid rgba(0, 0, 0, 0,19);
-  opacity: 1;  
-}
-.column.pilotos div:hover {
-  border: 3px solid rgb(0, 0, 0);
-}
-
-.contenedor {
-  position: relative;
-  width: 100%;
-}
-
-.imagen {
-  display: block;
-  width: 100%;
-  height: auto;
-  z-index: -99;
-}
-
-.overlay2 {
-  position:absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.8); /* Black see-through */
-  color: #f1f1f1;
-  width: 100%;
-  transition: .5s ease;
-  opacity:0;
-  color: black;
-  font-size: 20px;
-  font-weight: bolder;
-  padding: 20px;
-  text-align: center;
-}
-
-.contenedor:hover .overlay2 {
-  opacity: 1;
-}
-
-.formulario{
-  background-color: white;
-  border-radius: 7px;
-}
-.marcoFoto {
-  overflow: hidden; /*esta propiedad evita que la imagen ocupe mas espacio que su contenedor*/
-  border: 5px solid #FFF;
-  box-sizing:border-box;
-  float:left;
-}
-
-.marcoFoto img {
-  transition: all .4s ease;
-  width:100%;
-}
-
-.marcoFoto img:hover {
-  transform:scale(1.2) ; /*cuando nos posicionamos sobre la imagen con esta propiedad aumentamos su escala y ademas la giramos*/
-}
-.fondo-card {
-  background-image: url("./img/Banderas/Abu\ Dhabi.svg");
-  background-repeat: no-repeat;
-  background-position: 0% right; 
-}
-h5{
-  font-family: "Titillium Web", sans-serif;
-  font-weight: bold;
-}
-
-
-
-
-
-
-
-
-
-
