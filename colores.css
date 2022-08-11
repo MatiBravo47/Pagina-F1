@@ -1,6 +1,6 @@
 /* COLORES EQUIPOS */
 .Ferrari {
-  background-color: #fe0000;
+  background-color: rgba(254, 0, 0, 0.8);
 }
 #gradFerrari {
   background-color: #fe0000; /* For browsers that do not support gradients */
@@ -8,7 +8,7 @@
 }
 
 .Mercedes {
-  background-color: #02a09b;
+  background-color: rgba(2, 160, 155, 0.7);
 }
 #gradMercedes {
   background-color: #02a09b; /* For browsers that do not support gradients */
@@ -16,7 +16,7 @@
 }
 
 .RedBull {
-  background-color: #14195b;
+  background-color: rgba(20, 25, 91, 0.9);
 }
 #gradRedBull {
   background-color: #14195b; /* For browsers that do not support gradients */
@@ -24,7 +24,7 @@
 }
 
 .Mclaren {
-  background-color: #fd8000;
+  background-color: rgba(253, 128, 0, 0.8);
 }
 #gradMclaren {
   background-color: #fd8000; /* For browsers that do not support gradients */
@@ -32,7 +32,7 @@
 }
 
 .Williams {
-  background-color: #041e41;
+  background-color: rgba(4, 30, 65, 0.8);
 }
 #gradWilliams {
   background-color: #041e41; /* For browsers that do not support gradients */
@@ -40,7 +40,7 @@
 }
 
 .AstonMartin {
-  background-color: #015a50;
+  background-color: rgba(1, 90, 80, 0.8);
 }
 #gradAstonMartin {
   background-color: #015a50; /* For browsers that do not support gradients */
@@ -48,14 +48,14 @@
 }
 
 .Haas {
-  background-color: #dadada;
+  background-color: rgba(218, 218, 218, 0.8);
 }
 #gradHaas {
   background-color: #dadada; /* For browsers that do not support gradients */
   background-image: linear-gradient(to right, #dadada, white);
 }
 .AlfaRomeo {
-  background-color: #990100;
+  background-color: rgba(153, 1, 0, 0.8);
 }
 #gradAlfaRomeo {
   background-color: #990100; /* For browsers that do not support gradients */
@@ -63,7 +63,7 @@
 }
 
 .AlphaTauri {
-  background-color: #022a4a;
+  background-color: rgba(2, 42, 74, 0.9);
 }
 #gradAlphaTauri {
   background-color: #022a4a; /* For browsers that do not support gradients */
@@ -71,7 +71,7 @@
 }
 
 .Alpine {
-  background-color: #0f1c2c;
+  background-color: rgba(15, 28, 44, 0.9);
 }
 #gradAlpine {
   background-color: #0f1c2c; /* For browsers that do not support gradients */

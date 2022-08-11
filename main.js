@@ -170,7 +170,7 @@ var pilotos=[
   },
 ]
 //Funcion que arregla en orden decreciente por puntos 
-var porPuntos = pilotos.slice(0);
+let porPuntos = pilotos.slice(0);
 porPuntos.sort(function(a,b) {
   return b.PTS - a.PTS;
 });
@@ -193,9 +193,9 @@ for (let i=0; i<pilotos.length; i++) {
     cad+= `
         <tr>
             <td>${i+1}</td>
-            <td><img src="${porPuntos[i].bandera}" width="40px" ;border-style:none; ></img> 
+            <td><img class="iconos" src="${porPuntos[i].bandera}"></img> 
             ${porPuntos[i].nombre}</td>
-            <td><img src="${porPuntos[i].logo}" width="40px" ;border-style:none; ></img>
+            <td><img class="iconos" src="${porPuntos[i].logo}"></img>
             ${porPuntos[i].equipo}
             </td>
             <td>${porPuntos[i].PTS}</td>
