@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  font-family: "Titillium Web", sans-serif;
+  box-sizing: border-box;
+}
+body {background-color: #0d1117;}
+
+div {overflow: hidden;}
+
+/* li > a {font-size: 30px;} */
+/* Fin barra de navegacion  */
+
+/* =============overlay de proxima carrera==================  */
+.overlay {
+  background: rgba(0, 0, 0, 0.8); /* Black see-through */
+  bottom: 0;
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  transition: 0.5s ease;
+  opacity: 0;
+  padding: 20px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.contenedor:hover .overlay {opacity: 1;}
+
+.contenedor {position: relative; width: 100%;}
+
+#imgProxima {
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: -99;
+}
+
+/* ==============TIPOGRAFIA================== */
+h1 {
+  color: #990100;
+  font-weight: 600;
+  margin: 0;
+  text-decoration: underline;
+}
+
+h2 {
+  color: white;
+}
+
+h5 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+}
+
+/* =================FOOTER================= */
+
+ul.RedesSociales {
+  background-color: black;
+  bottom: 0px;
+  list-style-type: none;
+  height: 55px;
+  padding: 0;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.RedesSociales li {
+  float: right;
+}
+
+.RedesSociales li a {
+  color: white;
+  display: block;
+  font-size: 16px;
+  padding: 16px 16px;
+  text-align: center;
+  text-decoration: none; 
+}
+
+/* ========================================================================== */
+/* .container {
+  border-radius: 5px;
+} */
+.espacio {
+  margin-top: 67px;
+}
+
+/* iconos mundial pilotos */
+.iconos{
+  width: 40px;
+  border-style: none;
+}
+.card-img-top {
+  background-color: #0d1117;
+}
