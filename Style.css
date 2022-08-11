@@ -9,47 +9,38 @@ body {
 /*===============Barra de navegacion ===================*/
 /* navbar */
 .topnav {
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #0a0a00;
   position: fixed;
   width: 100%;
-  z-index: +99;
+  z-index: 99;
 }
 
-.topnav a {
-  display: inline-block;
+.topnav a ,.topnav a:hover{ 
   color: white;
+  display: inline-block;  
+  padding: 15px 15px;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 15px;
 }
 .topnav .icon {
   display: none;
 }
 
-.topnav a:hover {
+.topnav a:hover, .topnav .active {
   border: solid #0a0a00;
   border-bottom-color: red;
-  border-width: 4px;
-  padding-bottom: 7px;
   color: #ccc;
 }
-a.logo:hover {
-  border: solid #0a0a00;
-  padding-bottom: 5px;
-  border-width: 0;
+a.logo:hover, a.icon:hover{
+  border: solid #0a0a00;  
 }
-a.icon:hover {
-  border: solid #0a0a00 !important;
-  border-width: 0;
-  text-decoration: none !important;
+a.icon:hover {  
+  text-decoration: none;
 }
 .topnav .active {
-  border: solid #0a0a00;
-  border-bottom-color: red;
-  border-width: 4px;
-  padding-bottom: 7px;
+  border-bottom-color: red;  
 }
 
 @media screen and (max-width: 616px) {
@@ -74,9 +65,6 @@ a.icon:hover {
     display: block;
     text-align: left;
   }
-  .nombre {
-    font-size: 16px !important;
-  }
 }
 div {
   overflow: hidden;
@@ -86,63 +74,35 @@ li > a {
 }
 /* Fin barra de navegacion  */
 
-
-
-
-/*=============== proximacarrera css ========================*/
-/* =============imagen proxima carrera =======================*/
+/* =============overlay de proxima carrera==================  */
+.overlay2 {
+  background: rgba(0, 0, 0, 0.8); /* Black see-through */
+  bottom: 0;
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  transition: 0.5s ease;
+  opacity: 0;
+  padding: 20px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.contenedor:hover .overlay2 {
+  opacity: 1;
+}
+.contenedor {
+  position: relative;
+  width: 100%;
+}
 .imagen {
   display: block;
   width: 100%;
   height: auto;
   z-index: -99;
 }
-/* =============overlay de proxima carrera==================  */
-.overlay2 {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.8); /* Black see-through */
-  color: #f1f1f1;
-  width: 100%;
-  transition: 0.5s ease;
-  opacity: 0;
-  color: black;
-  font-size: 20px;
-  font-weight: bolder;
-  padding: 20px;
-  text-align: center;
-}
 
-.contenedor:hover .overlay2 {
-  opacity: 1;
-}
-
-.ProximaCarrera {
-  float: right;
-  position: relative;
-  height: max-content;
-  overflow: hidden;
-}
-
-.ProximaCarrera:hover .overlay {
-  opacity: 0, 7;
-}
-.ProximaCarrera:hover .image {
-  filter: blur(1px);
-}
-.contenedor {
-  position: relative;
-  width: 100%;
-}
-
-div > img {
-  overflow: hidden;
-  width: 100%;
-  height: auto;
-  max-height: 550px;
-}
-/* ==============titulos================== */
+/* ==============TIPOGRAFIA================== */
 h1 {
   color: #990100;
   font-weight: 600;
@@ -159,17 +119,16 @@ h5 {
   font-weight: bold;
 }
 
-/* =================Footer ================= */
+/* =================FOOTER================= */
 
 ul.RedesSociales {
-  list-style-type: none;
   background-color: black;
-  width: 100%;
-  height: 70px;
   bottom: 0px;
+  list-style-type: none;
+  height: 70px;
   padding: 0;
-  z-index: 100;
   margin-bottom: 0px;
+  width: 100%;
 }
 
 .RedesSociales li {
@@ -177,20 +136,15 @@ ul.RedesSociales {
 }
 
 .RedesSociales li a {
-  display: block;
   color: white;
-  text-align: center;
-  padding: 16px 16px;
-  text-decoration: none;
+  display: block;
   font-size: 16px;
+  padding: 16px 16px;
+  text-align: center;
+  text-decoration: none; 
 }
 
 /* ========================================================================== */
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  /* padding: 4px 0; */
-}
 .container {
   border-radius: 5px;
 }
