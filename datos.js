@@ -63,6 +63,7 @@ app=new Vue({
             textColor:"text-white"
             }
         ],
+        // ===========================LISTA PILOTOS==============================================
         pilotos:[ {
             nombre:"Carlos Sainz",
             equipo:"Ferrari",
@@ -285,3 +286,5 @@ app=new Vue({
             }]
     }
 })
+
+

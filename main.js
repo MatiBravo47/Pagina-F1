@@ -7,7 +7,7 @@ function myFunction() {
   }
 }
 //Vector de objetos,cada objeto es un piloto de F1
-var pilotos=[
+let pilotos=[
   {
   nombre:"Carlos Sainz",
   equipo:"Ferrari",
@@ -170,10 +170,12 @@ var pilotos=[
   },
 ]
 //Funcion que arregla en orden decreciente por puntos 
+//crea lista porPuntos
 let porPuntos = pilotos.slice(0);
-porPuntos.sort(function(a,b) {
-  return b.PTS - a.PTS;
-});
+// porPuntos.sort(function(a,b) {
+//     return b.PTS - a.PTS;
+// });
+porPuntos.sort((a,b) => b.PTS - a.PTS )
 
 
 //Codigo tabla de posiciones 
@@ -181,24 +183,24 @@ if ( document.getElementById( "idtabla" )) {
 //encabezado fijo tabla
 cad=`
     <table class="table table-hover table-dark">
-      <tr>
+    <tr>
         <th>Pos</th>
         <th>Piloto</th>
         <th>Equipo</th>
         <th>PTS</th>
-      </tr>
-  `
+    </tr>
+    `
 //y ademas tiene un contenido que varia segun su data
-for (let i=0; i<pilotos.length; i++) {
+    for (let [index, puntos] of porPuntos.entries()){
     cad+= `
         <tr>
-            <td>${i+1}</td>
-            <td><img class="iconos" src="${porPuntos[i].bandera}"></img> 
-            ${porPuntos[i].nombre}</td>
-            <td><img class="iconos" src="${porPuntos[i].logo}"></img>
-            ${porPuntos[i].equipo}
+            <td>${index + 1}</td>
+            <td><img class="iconos" src="${puntos.bandera}"></img> 
+            ${puntos.nombre}</td>
+            <td><img class="iconos" src="${puntos.logo}"></img>
+            ${puntos.equipo}
             </td>
-            <td>${porPuntos[i].PTS}</td>
+            <td>${puntos.PTS}</td>
         </tr>
         `
 }
@@ -209,3 +211,4 @@ cad+=`
     
 document.getElementById("idtabla").innerHTML = cad;
 }
+

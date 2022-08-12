@@ -18,6 +18,8 @@
   href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;600&display=swap"
   rel="stylesheet"
 />
+<!-- Vue.js -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <!-- Favicon  -->
 <link rel="icon" type="image/x-icon" href="./img/F1Logofavicon.png" />
 <!-- Vinculo con fontawesome -->
@@ -28,10 +30,8 @@ crossorigin="anonymous"
 </head>
   <body>
     <header id="header">
-        <div>
           <!-- Barra de navegacion  -->
-          <nav>
-            <div class="topnav" id="myTopnav">
+          <nav class="topnav" id="myTopnav">
               <a class="logo" href="./index.html"
                 ><img src="./img/LogoF1.png" height="20vw" />
               </a>
@@ -43,14 +43,34 @@ crossorigin="anonymous"
               <a href="javascript:void(0);" class="icon" onclick="myFunction()"
                 >&#9776;</a
               >
-            </div>
           </nav>
-        </div>
       </header>
     <div class="container">
-    <div class="row espacio">
-    <div id="idtabla"></div>
-    </div>
+      <!-- <div id="app"> -->
+        <div class="row espacio">
+          <!-- <table class="table table-hover table-dark">
+            <tr>
+              <th>Pos</th>
+              <th>Piloto</th>
+              <th>Equipo</th>
+              <th>PTS</th>
+            </tr>
+            <div v-for="piloto in pilotos" :key="index">
+            <tr>
+              <td>{{index}}</td>
+              <td><img class="iconos" src="${porPuntos[i].bandera}"></img> 
+              ${porPuntos[i].nombre}</td>
+              <td><img class="iconos" src="${porPuntos[i].logo}"></img>
+              ${porPuntos[i].equipo}
+              </td>
+              <td>${porPuntos[i].PTS}</td>
+            </tr>
+          </div>
+          </table>  -->
+    <div id="idtabla"></div> 
+
+        </div>
+      </div>
   </div>
     <!-- <footer id="idfooter"></footer> -->
     <footer>
@@ -69,5 +89,6 @@ crossorigin="anonymous"
       </ul>
     </footer>
     <script src="./main.js"></script>
+    <script src="./datos.js"></script>
   </body>
 </html>

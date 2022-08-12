@@ -5,12 +5,13 @@
     position: fixed;
     width: 100%;
     z-index: 99;
+    min-height: 60px;
   }
   
   .topnav a ,.topnav a:hover{ 
     color: white;
     display: inline-block;  
-    padding: 15px 15px;
+    padding: 15px 15px; 
     text-align: center;
     text-decoration: none;
     font-size: 15px;
@@ -31,6 +32,7 @@
   @media screen and (max-width: 616px) {
     .topnav a:not(:first-child) {
       display: none;
+      padding: 15px 15px;
       font-size: 15px;
     }
     .topnav a.icon {
