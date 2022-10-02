@@ -14,7 +14,7 @@ let pilotos=[
   logo:"img/LogoE/Ferrari.png",
   bandera:"img/BanderasP/Espania.jpg",
   foto:"./img/Pilotos/Sainz.jpg",
-  PTS:187,
+  PTS:202
   },
   {
   nombre:"Charles Leclerc",
@@ -22,7 +22,7 @@ let pilotos=[
   logo:"img/LogoE/Ferrari.png",
   bandera:"img/BanderasP/Monaco.jpg",
   foto:"./img/Pilotos/Lecrerc.jpg",
-  PTS:219
+  PTS:237
   },
   {
   nombre:"Max Verstappen",
@@ -30,7 +30,7 @@ let pilotos=[
   logo:"img/LogoE/RedBull.png",
   bandera:"img/BanderasP/Holanda.jpg",
   foto:"./img/Pilotos/Max Verstappen.jpg",
-  PTS:335
+  PTS:341
   },
   {
   nombre:"Checo Perez",
@@ -38,7 +38,7 @@ let pilotos=[
   logo:"img/LogoE/RedBull.png",
   bandera:"img/BanderasP/Mexico.jpg",
   foto:"./img/Pilotos/Perez.jpg",
-  PTS:210
+  PTS:235
   },
   {
   nombre:"Lando Norris",
@@ -46,7 +46,7 @@ let pilotos=[
   logo:"img/LogoE/Mclaren.png",
   bandera:"img/BanderasP/ReinoUnido.jpg",
   foto:"./img/Pilotos/Norris.jpg",
-  PTS:88
+  PTS:100
   },
   {
   nombre:"Daniel Ricciardo",
@@ -54,7 +54,7 @@ let pilotos=[
   logo:"img/LogoE/Mclaren.png",
   bandera:"img/BanderasP/Australia.jpg",
   foto:"./img/Pilotos/Ricciardo.jpg",
-  PTS:19
+  PTS:29
   },
   {
   nombre:"Fernando Alonso",
@@ -94,7 +94,7 @@ let pilotos=[
   logo:"img/LogoE/Mercedes.png",
   bandera:"img/BanderasP/ReinoUnido.jpg",
   foto:"./img/Pilotos/Hamilton.jpg",
-  PTS:168
+  PTS:170
   },
   {
   nombre:"George Russell",
@@ -118,7 +118,7 @@ let pilotos=[
   logo:"img/LogoE/AlphaTauri.png",
   bandera:"img/BanderasP/Francia.jpg",
   foto:"./img/Pilotos/Gasly.jpg",
-  PTS:22
+  PTS:23
   },
   {
   nombre:"Valtteri Bottas",
@@ -158,7 +158,7 @@ let pilotos=[
   logo:"img/LogoE/AstonMartin.png",
   bandera:"img/BanderasP/Alemania.jpg",
   foto:"./img/Pilotos/Vettel.jpg",
-  PTS:20 
+  PTS:24 
   },
   {
   nombre:"Lance Stroll",
@@ -166,7 +166,7 @@ let pilotos=[
   logo:"img/LogoE/AstonMartin.png",
   bandera:"img/BanderasP/Canada.jpg",
   foto:"./img/Pilotos/Stroll.jpg",
-  PTS:5
+  PTS:13
   },
 ]
 //Funcion que arregla en orden decreciente por puntos 
