@@ -14,7 +14,7 @@ let pilotos=[
   logo:"img/LogoE/Ferrari.png",
   bandera:"img/BanderasP/Espania.jpg",
   foto:"./img/Pilotos/Sainz.jpg",
-  PTS:102+25,
+  PTS:187,
   },
   {
   nombre:"Charles Leclerc",
@@ -22,7 +22,7 @@ let pilotos=[
   logo:"img/LogoE/Ferrari.png",
   bandera:"img/BanderasP/Monaco.jpg",
   foto:"./img/Pilotos/Lecrerc.jpg",
-  PTS:126 + 12
+  PTS:219
   },
   {
   nombre:"Max Verstappen",
@@ -30,7 +30,7 @@ let pilotos=[
   logo:"img/LogoE/RedBull.png",
   bandera:"img/BanderasP/Holanda.jpg",
   foto:"./img/Pilotos/Max Verstappen.jpg",
-  PTS:175 + 6
+  PTS:335
   },
   {
   nombre:"Checo Perez",
@@ -38,7 +38,7 @@ let pilotos=[
   logo:"img/LogoE/RedBull.png",
   bandera:"img/BanderasP/Mexico.jpg",
   foto:"./img/Pilotos/Perez.jpg",
-  PTS:129 + 18
+  PTS:210
   },
   {
   nombre:"Lando Norris",
@@ -46,7 +46,7 @@ let pilotos=[
   logo:"img/LogoE/Mclaren.png",
   bandera:"img/BanderasP/ReinoUnido.jpg",
   foto:"./img/Pilotos/Norris.jpg",
-  PTS:50 + 8
+  PTS:88
   },
   {
   nombre:"Daniel Ricciardo",
@@ -54,7 +54,7 @@ let pilotos=[
   logo:"img/LogoE/Mclaren.png",
   bandera:"img/BanderasP/Australia.jpg",
   foto:"./img/Pilotos/Ricciardo.jpg",
-  PTS:15
+  PTS:19
   },
   {
   nombre:"Fernando Alonso",
@@ -62,7 +62,7 @@ let pilotos=[
   logo:"img/LogoE/Alpine.png",
   bandera:"img/BanderasP/Espania.jpg",
   foto:"./img/Pilotos/Alonso.jpg",
-  PTS:18 + 10
+  PTS:59
   },
   {
   nombre:"Esteban Ocon",
@@ -70,7 +70,7 @@ let pilotos=[
   logo:"img/LogoE/Alpine.png",
   bandera:"img/BanderasP/Francia.jpg",
   foto:"./img/Pilotos/Ocon.jpg",
-  PTS:39
+  PTS:66
   },
   {
   nombre:"Kevin Magnussen",
@@ -78,7 +78,7 @@ let pilotos=[
   logo:"img/LogoE/Haas.png",
   bandera:"img/BanderasP/Dinamarca.jpg",
   foto:"./img/Pilotos/Magnussen.jpg",
-  PTS:15 + 1
+  PTS:22
   },
   {
   nombre:"Mick Schumacher",
@@ -86,7 +86,7 @@ let pilotos=[
   logo:"img/LogoE/Haas.png",
   bandera:"img/BanderasP/Alemania.jpg",
   foto:"./img/Pilotos/Schumacher.jpg",
-  PTS:0+4
+  PTS:12
   },
   {
   nombre:"Lewis Hamilton",
@@ -94,7 +94,7 @@ let pilotos=[
   logo:"img/LogoE/Mercedes.png",
   bandera:"img/BanderasP/ReinoUnido.jpg",
   foto:"./img/Pilotos/Hamilton.jpg",
-  PTS:77 + 16
+  PTS:168
   },
   {
   nombre:"George Russell",
@@ -102,7 +102,7 @@ let pilotos=[
   logo:"img/LogoE/Mercedes.png",
   bandera:"img/BanderasP/ReinoUnido.jpg",
   foto:"./img/Pilotos/Russell.jpg",
-  PTS:111
+  PTS:203
   },
   {
   nombre:"Yuki Tsunoda",
@@ -118,7 +118,7 @@ let pilotos=[
   logo:"img/LogoE/AlphaTauri.png",
   bandera:"img/BanderasP/Francia.jpg",
   foto:"./img/Pilotos/Gasly.jpg",
-  PTS:16
+  PTS:22
   },
   {
   nombre:"Valtteri Bottas",
@@ -134,7 +134,7 @@ let pilotos=[
   logo:"img/LogoE/AlfaRomeo.png",
   bandera:"img/BanderasP/China.jpg",
   foto:"./img/Pilotos/Gaunyu.jpg",
-  PTS:5
+  PTS:6
   },
   {
   nombre:"Nicholas Latifi",
@@ -150,7 +150,7 @@ let pilotos=[
   logo:"img/LogoE/Williams.png",
   bandera:"img/BanderasP/Tailandia.jpg",
   foto:"./img/Pilotos/Albon.jpg",
-  PTS:3
+  PTS:4
   },
   {
   nombre:"Sebastian Vettel",
@@ -158,7 +158,7 @@ let pilotos=[
   logo:"img/LogoE/AstonMartin.png",
   bandera:"img/BanderasP/Alemania.jpg",
   foto:"./img/Pilotos/Vettel.jpg",
-  PTS:13 + 2 
+  PTS:20 
   },
   {
   nombre:"Lance Stroll",
@@ -166,7 +166,7 @@ let pilotos=[
   logo:"img/LogoE/AstonMartin.png",
   bandera:"img/BanderasP/Canada.jpg",
   foto:"./img/Pilotos/Stroll.jpg",
-  PTS:3
+  PTS:5
   },
 ]
 //Funcion que arregla en orden decreciente por puntos 
