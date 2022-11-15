@@ -93,3 +93,19 @@ ul.RedesSociales {
 .card-img-top {
   background-color: #0d1117;
 }
+
+/* hover al grupo de card se desenfoca  */
+.row:hover .contenido{
+    filter: blur(2px);
+}
+
+/* efecto de transicion  */
+.row .contenido {
+    transform:scale(1);
+    transition: all 0.3s ease-in;
+}
+/* tarjeta seleccionada se desenfoca  */
+.row .contenido:hover{
+    filter: blur(0px);
+    transform: scale(1.01);
+}

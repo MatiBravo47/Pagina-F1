@@ -54,7 +54,7 @@
   <main class="container">
     <div id="app">
       <div class="row espacio">
-        <section class="col-12 col-md-6" v-for="escuderia in escuderias">
+        <section class="col-12 col-md-6 contenido" v-for="escuderia in escuderias">
           <article class="card mb-3 shadow-lg p-3 bg-body rounded">
             <img :src="escuderia.imagen" class="card-img-top" :alt="escuderia.nombre" />
             <div class="card-body" :id="escuderia.gradiente">
