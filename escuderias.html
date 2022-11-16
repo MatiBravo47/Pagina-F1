@@ -70,7 +70,7 @@
     <div id="app">
       <div class="row">
         <section class="col-12 col-md-6 contenido" v-for="escuderia in escuderias">
-          <article class="card mb-3 shadow-lg p-3 bg-body rounded">
+          <article class="card mb-3 bg-body p-1 rounded">
             <img :src="escuderia.imagen" class="card-img-top" :alt="escuderia.nombre" />
             <div class="card-body" :id="escuderia.gradiente">
               <div><h5 class="card-title" :class="escuderia.textColor">{{escuderia.nombre}}</h5></div>
