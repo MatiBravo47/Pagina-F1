@@ -49,7 +49,7 @@
         <a href="contacto.html">Contacto</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
       </nav>
-    </header>
+    </header> 
     
     <main class="container">
         <div id="app">
@@ -59,9 +59,8 @@
                 <img :src="piloto.foto" class="card-img-top" :class="piloto.color" :alt="piloto.nombre" />
                 <div class="card-body" :id="piloto.gradiente">
                   <div>
-                    <span class="nombre" :class="piloto.textColor">{{piloto.nombre}}</span> 
-                    <br>
-                    <span class="card-title apellido" :class="piloto.textColor">{{piloto.apellido}}</span>   
+                    <p class="nombre" :class="piloto.textColor">{{piloto.nombre}}</p>     
+                    <p class="card-title apellido" :class="piloto.textColor">{{piloto.apellido}}</p>   
                   </div>
                   <div><img :src="piloto.numero" class="card-img-num" :alt="piloto.nombre" /></div>
                 </div>

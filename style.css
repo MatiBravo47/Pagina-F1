@@ -135,5 +135,8 @@ ul.RedesSociales {
 .apellido {
   font-weight: bold;
   font-size: 1.2em;
-  margin: 0;
+  margin-top: 0;
+}
+.nombre {
+  margin-bottom: 0;
 }
