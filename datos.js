@@ -6,53 +6,62 @@ app=new Vue({
             nombre:"Ferrari",
             imagen:"img/Escuderias/Ferrari.jpg",
             gradiente:"gradFerrari",
+            logo:"img/LogoE/Ferrari.png",
             textColor:"text-white"   
             },
             {
             nombre:" Alfa Romeo",
             imagen:"img/Escuderias/Alfaromeo.jpg",
             gradiente:"gradAlfaRomeo",
+            logo:"img/LogoE/AlfaRomeo.png",
             textColor:"text-white"
             },
             {
             nombre:"Alpha Tauri",
             imagen:"img/Escuderias/Alphatauri.jpg",
             gradiente:"gradAlphaTauri",
+            logo:"img/LogoE/AlphaTauri.png",
             textColor:"text-white"
             },
             {
             nombre:"Alpine",
             imagen:"img/Escuderias/Alpine.jpg",
             gradiente:"gradAlpine" ,
+            logo:"img/LogoE/Alpine.png",
             textColor:"text-white"   
             },
             {
             nombre:"Aston Martin",
             imagen:"img/Escuderias/Aston Martin.JPG",
             gradiente:"gradAstonMartin",
+            logo:"img/LogoE/AstonMartin.png",
             textColor:"text-white"
             },
             {
             nombre:"Haas",
             imagen:"img/Escuderias/Haas.JPG",
             gradiente:"gradHaas",
+            logo:"img/LogoE/Haas.png",
             textColor:"text-dark"
             },
             {
             nombre:"Mclaren",
             imagen:"img/Escuderias/Mclaren.jpg",
             gradiente:"gradMclaren",
+            logo:"img/LogoE/Mclaren.png",
             textColor:"text-dark"
             },
             {
             nombre:"Mercedes",
             imagen:"img/Escuderias/Mercedes.jpg",
             gradiente:"gradMercedes" ,
+            logo:"img/LogoE/Mercedes.png",
             textColor:"text-dark"   
             },
             {
             nombre:"RedBull",
             imagen:"img/Escuderias/RB.JPG",
+            logo:"img/LogoE/RedBull.png",
             gradiente:"gradRedBull",
             textColor:"text-white"
             },
@@ -60,6 +69,7 @@ app=new Vue({
             nombre:"Williams",
             imagen:"img/Escuderias/Williams.jpg",
             gradiente:"gradWilliams",
+            logo:"img/LogoE/Williams.png",
             textColor:"text-white"
             }
         ],

@@ -112,7 +112,7 @@ ul.RedesSociales {
     filter: blur(0px);
     transform: scale(1.01);
 }
-.div1{
+.card-body{
   display: flex;
   justify-content: space-around;
   align-items: center;

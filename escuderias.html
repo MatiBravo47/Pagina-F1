@@ -58,15 +58,8 @@
           <article class="card mb-3 shadow-lg p-3 bg-body rounded">
             <img :src="escuderia.imagen" class="card-img-top" :alt="escuderia.nombre" />
             <div class="card-body" :id="escuderia.gradiente">
-              <h5 class="card-title" :class="escuderia.textColor">{{escuderia.nombre}}</h5>
-              <p class="card-text">
-                <!-- This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer. -->
-              </p>
-              <p class="card-text">
-                <small :class="escuderia.textColor">Last updated 3 mins ago</small>
-              </p>
+              <div><h5 class="card-title" :class="escuderia.textColor">{{escuderia.nombre}}</h5></div>
+              <div><img :src="escuderia.logo" class="card-img-num" :alt="escuderia.nombre" /></div>
             </div>
           </article>
         </section>
