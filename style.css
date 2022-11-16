@@ -144,7 +144,7 @@ ul.RedesSociales {
 }
 
 /* hover al grupo de card se desenfoca  */
-.row:hover .contenido{
+.row:active .contenido{
     filter: blur(2px);
 }
 
@@ -154,7 +154,7 @@ ul.RedesSociales {
     transition: all 0.3s ease-in;
 }
 /* tarjeta seleccionada se desenfoca  */
-.row .contenido:hover{
+.row .contenido:active{
     filter: blur(0px);
     transform: scale(1.01);
 }
