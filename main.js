@@ -11,7 +11,7 @@ let pilotos=[
   {
   nombre:"Carlos Sainz",
   equipo:"Ferrari",
-  logo:"img/LogoE/Ferrari.png",
+  logo:"img/LogoE/Ferrari2.png",
   bandera:"img/BanderasP/Espania.jpg",
   foto:"./img/Pilotos/Sainz.jpg",
   PTS:202
@@ -19,7 +19,7 @@ let pilotos=[
   {
   nombre:"Charles Leclerc",
   equipo:"Ferrari",
-  logo:"img/LogoE/Ferrari.png",
+  logo:"img/LogoE/Ferrari2.png",
   bandera:"img/BanderasP/Monaco.jpg",
   foto:"./img/Pilotos/Lecrerc.jpg",
   PTS:237

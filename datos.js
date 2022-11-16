@@ -6,21 +6,21 @@ app=new Vue({
             nombre:"Ferrari",
             imagen:"img/Escuderias/Ferrari.jpg",
             gradiente:"gradFerrari",
-            logo:"img/LogoE/Ferrari.png",
+            logo:"img/LogoE/ferrari.svg",
             textColor:"text-white"   
             },
             {
             nombre:" Alfa Romeo",
             imagen:"img/Escuderias/Alfaromeo.jpg",
             gradiente:"gradAlfaRomeo",
-            logo:"img/LogoE/AlfaRomeo.png",
+            logo:"img/LogoE/AlfaRomeo.svg",
             textColor:"text-white"
             },
             {
             nombre:"Alpha Tauri",
             imagen:"img/Escuderias/Alphatauri.jpg",
             gradiente:"gradAlphaTauri",
-            logo:"img/LogoE/AlphaTauri.png",
+            logo:"img/LogoE/alphatauri.png",
             textColor:"text-white"
             },
             {
@@ -41,7 +41,7 @@ app=new Vue({
             nombre:"Haas",
             imagen:"img/Escuderias/Haas.JPG",
             gradiente:"gradHaas",
-            logo:"img/LogoE/Haas.png",
+            logo:"img/LogoE/Haas.svg",
             textColor:"text-dark"
             },
             {
@@ -55,13 +55,13 @@ app=new Vue({
             nombre:"Mercedes",
             imagen:"img/Escuderias/Mercedes.jpg",
             gradiente:"gradMercedes" ,
-            logo:"img/LogoE/Mercedes.png",
+            logo:"img/LogoE/Mercedes.svg",
             textColor:"text-dark"   
             },
             {
             nombre:"RedBull",
             imagen:"img/Escuderias/RB.JPG",
-            logo:"img/LogoE/RedBull.png",
+            logo:"img/LogoE/redbull.svg",
             gradiente:"gradRedBull",
             textColor:"text-white"
             },
@@ -78,7 +78,7 @@ app=new Vue({
             nombre: "Carlos",
             apellido: "Sainz",
             equipo:"Ferrari",
-            logo:"img/LogoE/Ferrari.png",
+            logo:"img/LogoE/Ferrari.svg",
             bandera:"img/BanderasP/Espania.jpg",
             foto:"./img/Pilotos/Sainz.png",
             PTS:102+25,
