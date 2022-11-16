@@ -131,3 +131,9 @@ ul.RedesSociales {
 .card-img-logo{
   max-height: 50px;
 }
+
+.apellido {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 0;
+}
