@@ -32,7 +32,6 @@ a.nav-link.active , a.nav-link:hover{
 .navbar .navbar-nav .nav-item{
   position: relative;
 }
-
 .navbar .navbar-nav .nav-item:after{
   position: absolute;
   content: '';
