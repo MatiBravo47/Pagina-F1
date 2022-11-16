@@ -3,6 +3,54 @@
   font-family: "Titillium Web", sans-serif;
   box-sizing: border-box;
 }
+@media screen and (min-width:992px){
+  .navbar{
+    padding: 0;
+  }
+  .navbar .navbar-nav .nav-link{
+    padding: 1em 0;
+  }
+  .navbar .navbar-nav .nav-link{
+    margin: 0 1em;
+  }  
+}
+a.nav-link.active , a.nav-link:hover{
+  color: grey !important;
+}
+.nav-link{
+  color: white;
+}
+.navbar-brand{
+  display: flex;
+  justify-content: center;
+}
+
+.bg-navbar {
+  background-color: #0a0a00;
+}
+
+.navbar .navbar-nav .nav-item{
+  position: relative;
+}
+
+.navbar .navbar-nav .nav-item:after{
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: red;
+  width: 0%;
+  height: 4px;
+  transition: all .5s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after{
+  width: 100%;
+
+}
+
 body {background-color: #0d1117;}
 
 div {overflow: hidden;}
