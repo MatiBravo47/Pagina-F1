@@ -93,6 +93,9 @@ ul.RedesSociales {
 .card-img-top {
   background-color: #0d1117;
 }
+.card-img-num {
+  max-width: 60px;
+}
 
 /* hover al grupo de card se desenfoca  */
 .row:hover .contenido{
@@ -108,4 +111,19 @@ ul.RedesSociales {
 .row .contenido:hover{
     filter: blur(0px);
     transform: scale(1.01);
+}
+.div1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .h5{
+    font-size: 50px;
+  }
+  .card-img-num{
+    max-width: 100px;
+  }
+
 }

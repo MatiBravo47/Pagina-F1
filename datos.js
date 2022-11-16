@@ -65,7 +65,8 @@ app=new Vue({
         ],
         // ===========================LISTA PILOTOS==============================================
         pilotos:[ {
-            nombre:"Carlos Sainz",
+            nombre: "Carlos",
+            apellido: "Sainz",
             equipo:"Ferrari",
             logo:"img/LogoE/Ferrari.png",
             bandera:"img/BanderasP/Espania.jpg",
@@ -73,10 +74,12 @@ app=new Vue({
             PTS:102+25,
             color:"Ferrari",
             gradiente:"gradFerrari",
-            textColor:"text-white" 
+            numero:"./img/Numero/55.png",
+            textColor:"text-white"
             },
             {
-            nombre:"Charles Leclerc",
+            nombre:"Charles",
+            apellido: "Leclerc",
             equipo:"Ferrari",
             logo:"img/LogoE/Ferrari.png",
             bandera:"img/BanderasP/Monaco.jpg",
@@ -84,10 +87,12 @@ app=new Vue({
             PTS:126 + 12,
             color:"Ferrari",
             gradiente:"gradFerrari",
+            numero:"./img/Numero/16.png",
             textColor:"text-white"
             },
             {
-            nombre:"Max Verstappen",
+            nombre:"Max",
+            apellido: "Verstappen",
             equipo:"Red Bull",
             logo:"img/LogoE/RedBull.png",
             bandera:"img/BanderasP/Holanda.jpg",
@@ -95,10 +100,12 @@ app=new Vue({
             PTS:175 + 6,
             color:"RedBull",
             gradiente:"gradRedBull",
+            numero:"./img/Numero/1.png",
             textColor:"text-white"
             },
             {
-            nombre:"Checo Perez",
+            nombre:"Checo",
+            apellido: "Perez",
             equipo:"Red Bull",
             logo:"img/LogoE/RedBull.png",
             bandera:"img/BanderasP/Mexico.jpg",
@@ -106,10 +113,12 @@ app=new Vue({
             PTS:129 + 18,
             color:"RedBull",
             gradiente:"gradRedBull",
+            numero:"./img/Numero/11.png",
             textColor:"text-white"
             },
             {
-            nombre:"Lando Norris",
+            nombre:"Lando",
+            apellido: "Norris",
             equipo:"Mclaren",
             logo:"img/LogoE/Mclaren.png",
             bandera:"img/BanderasP/ReinoUnido.jpg",
@@ -117,10 +126,12 @@ app=new Vue({
             PTS:50 + 8,
             color:"Mclaren",
             gradiente:"gradMclaren",
+            numero:"./img/Numero/4.png",
             textColor:"text-dark"
             },
             {
-            nombre:"Daniel Ricciardo",
+            nombre:"Daniel",
+            apellido: "Ricciardo",
             equipo:"Mclaren",
             logo:"img/LogoE/Mclaren.png",
             bandera:"img/BanderasP/Australia.jpg",
@@ -128,10 +139,12 @@ app=new Vue({
             PTS:15,
             color:"Mclaren",
             gradiente:"gradMclaren",
+            numero:"./img/Numero/3.png",
             textColor:"text-dark"
             },
             {
-            nombre:"Fernando Alonso",
+            nombre:"Fernando",
+            apellido: "Alonso",
             equipo:"Alpine",
             logo:"img/LogoE/Alpine.png",
             bandera:"img/BanderasP/Espania.jpg",
@@ -139,10 +152,12 @@ app=new Vue({
             PTS:18 + 10,
             color:"Alpine",
             gradiente:"gradAlpine",
+            numero:"./img/Numero/14.png",
             textColor:"text-white"
             },
             {
-            nombre:"Esteban Ocon",
+            nombre:"Esteban",
+            apellido: "Ocon",
             equipo:"Alpine",
             logo:"img/LogoE/Alpine.png",
             bandera:"img/BanderasP/Francia.jpg",
@@ -150,10 +165,12 @@ app=new Vue({
             PTS:39,
             color:"Alpine",
             gradiente:"gradAlpine",
+            numero:"./img/Numero/31.png",
             textColor:"text-white"
             },
             {
-            nombre:"Kevin Magnussen",
+            nombre:"Kevin",
+            apellido: "Magnussen",
             equipo:"Haas F1 Team",
             logo:"img/LogoE/Haas.png",
             bandera:"img/BanderasP/Dinamarca.jpg",
@@ -161,10 +178,12 @@ app=new Vue({
             PTS:15 + 1,
             color:"Haas",
             gradiente:"gradHaas",
+            numero:"./img/Numero/20.png",
             textColor: "text-dark"
             },
             {
-            nombre:"Mick Schumacher",
+            nombre:"Mick",
+            apellido: "Schumacher",
             equipo:"Haas F1 Team",
             logo:"img/LogoE/Haas.png",
             bandera:"img/BanderasP/Alemania.jpg",
@@ -172,10 +191,12 @@ app=new Vue({
             PTS:0+4,
             color:"Haas",
             gradiente:"gradHaas",
+            numero:"./img/Numero/47.png",
             textColor: "text-dark"
             },
             {
-            nombre:"Lewis Hamilton",
+            nombre:"Lewis",
+            apellido: "Hamilton",
             equipo:"Mercedes",
             logo:"img/LogoE/Mercedes.png",
             bandera:"img/BanderasP/ReinoUnido.jpg",
@@ -183,10 +204,12 @@ app=new Vue({
             PTS:77 + 16,
             color:"Mercedes",
             gradiente:"gradMercedes",
+            numero:"./img/Numero/44.png",
             textColor: "text-dark"
             },
             {
-            nombre:"George Russell",
+            nombre:"George",
+            apellido: "Russell",
             equipo:"Mercedes",
             logo:"img/LogoE/Mercedes.png",
             bandera:"img/BanderasP/ReinoUnido.jpg",
@@ -194,10 +217,12 @@ app=new Vue({
             PTS:111,
             color:"Mercedes",
             gradiente:"gradMercedes" ,
+            numero:"./img/Numero/63.png",
             textColor: "text-dark"
             },
             {
-            nombre:"Yuki Tsunoda",
+            nombre:"Yuki",
+            apellido: "Tsunoda",
             equipo:"AlphaTauri",
             logo:"img/LogoE/AlphaTauri.png",
             bandera:"img/BanderasP/Japon.jpg",
@@ -205,10 +230,12 @@ app=new Vue({
             PTS:11,
             color:"AlphaTauri",
             gradiente:"gradAlphaTauri",
+            numero:"./img/Numero/22.png",
             textColor:"text-white"
             },
             {
-            nombre:"Pierre Gasly",
+            nombre:"Pierre",
+            apellido: "Gasly",
             equipo:"AlphaTauri",
             logo:"img/LogoE/AlphaTauri.png",
             bandera:"img/BanderasP/Francia.jpg",
@@ -216,10 +243,12 @@ app=new Vue({
             PTS:16,
             color:"AlphaTauri",
             gradiente:"gradAlphaTauri",
+            numero:"./img/Numero/10.png",
             textColor:"text-white"
             },
             {
-            nombre:"Valtteri Bottas",
+            nombre:"Valtteri",
+            apellido: "Bottas",
             equipo:"Alfa Romeo",
             logo:"img/LogoE/AlfaRomeo.png",
             bandera:"img/BanderasP/Finlandia.jpg",
@@ -227,10 +256,12 @@ app=new Vue({
             PTS:46,
             color:"AlfaRomeo",
             gradiente:"gradAlfaRomeo",
+            numero:"./img/Numero/77.png",
             textColor:"text-white"
             },
             {
-            nombre:"Zhou Gaunyu",
+            nombre:"Zhou",
+            apellido: "Gaunyu",
             equipo:"Alfa Romeo",
             logo:"img/LogoE/AlfaRomeo.png",
             bandera:"img/BanderasP/China.jpg",
@@ -238,10 +269,12 @@ app=new Vue({
             PTS:5,
             color:"AlfaRomeo",
             gradiente:"gradAlfaRomeo",
+            numero:"./img/Numero/24.png",
             textColor:"text-white"
             },
             {
-            nombre:"Nicholas Latifi",
+            nombre:"Nicholas",
+            apellido: "Latifi",
             equipo:"Williams",
             logo:"img/LogoE/Williams.png",
             bandera:"img/BanderasP/Canada.jpg",
@@ -249,10 +282,12 @@ app=new Vue({
             PTS:0,
             color:"Williams",
             gradiente:"gradWilliams",
+            numero:"./img/Numero/6.png",
             textColor:"text-white"
             },
             {
-            nombre:"Alexander Albon",
+            nombre:"Alexander",
+            apellido: "Albon",
             equipo:"Williams",
             logo:"img/LogoE/Williams.png",
             bandera:"img/BanderasP/Tailandia.jpg",
@@ -260,10 +295,12 @@ app=new Vue({
             PTS:0,
             color:"Williams",
             gradiente:"gradWilliams",
+            numero:"./img/Numero/23.png",
             textColor:"text-white"
             },
             {
-            nombre:"Sebastian Vettel",
+            nombre:"Sebastian",
+            apellido: "Vettel",
             equipo:"Aston Martin",
             logo:"img/LogoE/AstonMartin.png",
             bandera:"img/BanderasP/Alemania.jpg",
@@ -271,10 +308,12 @@ app=new Vue({
             PTS:13 + 2,
             color:"AstonMartin",
             gradiente:"gradAstonMartin",
+            numero:"./img/Numero/5.png",
             textColor:"text-white"
             },
             {
-            nombre:"Lance Stroll",
+            nombre:"Lance",
+            apellido: "Stroll",
             equipo:"Aston Martin",
             logo:"img/LogoE/AstonMartin.png",
             bandera:"img/BanderasP/Canada.jpg",
@@ -282,6 +321,7 @@ app=new Vue({
             PTS:3,
             color:"AstonMartin",
             gradiente:"gradAstonMartin",
+            numero:"./img/Numero/18.png",
             textColor:"text-white"
             }]
     }
