@@ -107,7 +107,7 @@ let pilotos=[
   {
   nombre:"Yuki Tsunoda",
   equipo:"AlphaTauri",
-  logo:"img/LogoE/AlphaTauri.png",
+  logo:"img/LogoE/alphatauri.png",
   bandera:"img/BanderasP/Japon.jpg",
   foto:"./img/Pilotos/Tsunoda.jpg",
   PTS:11
@@ -115,7 +115,7 @@ let pilotos=[
   {
   nombre:"Pierre Gasly",
   equipo:"AlphaTauri",
-  logo:"img/LogoE/AlphaTauri.png",
+  logo:"img/LogoE/alphatauri.png",
   bandera:"img/BanderasP/Francia.jpg",
   foto:"./img/Pilotos/Gasly.jpg",
   PTS:23
