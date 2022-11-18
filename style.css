@@ -47,7 +47,6 @@ a.nav-link.active , a.nav-link:hover{
 
 .navbar .navbar-nav .nav-item:hover::after{
   width: 100%;
-
 }
 body {background-color: #0d1117;}
 
@@ -81,6 +80,16 @@ div {overflow: hidden;}
   z-index: -99;
 }
 
+#twitter{
+  position: relative;
+}
+#carga {
+  position: absolute;
+  /* centro div  */
+  top: 40%;
+  left: 40%;
+  /* centro spinner  */
+}
 /* ==============TIPOGRAFIA================== */
 h1 {
   color: #990100;
