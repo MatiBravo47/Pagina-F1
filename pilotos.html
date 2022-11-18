@@ -12,9 +12,7 @@
     
     <!-- Vinculo con CSS -->
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./colores.css">
-    <link rel="stylesheet" href="./nav.css">
-    
+    <link rel="stylesheet" href="./colores.css">    
     <!-- Vinculo con fontawesome -->
     <script
       src="https://kit.fontawesome.com/56402b4728.js"
@@ -77,7 +75,7 @@
                 <div class="card-body" :id="piloto.gradiente">
                   <div>
                     <p class="nombre" :class="piloto.textColor">{{piloto.nombre}}</p>     
-                    <p class="card-title apellido" :class="piloto.textColor">{{piloto.apellido}}</p>   
+                    <p class="card-title apellido" :class="piloto.textColor">{{piloto.apellido.toUpperCase()}}</p>   
                   </div>
                   <div><img :src="piloto.numero" class="card-img-num" :alt="piloto.nombre" /></div>
                 </div>
