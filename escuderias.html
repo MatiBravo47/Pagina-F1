@@ -72,7 +72,7 @@
           <article class="card mb-3 bg-body p-1 rounded">
             <img :src="escuderia.imagen" class="card-img-top" :alt="escuderia.nombre" />
             <div class="card-body" :id="escuderia.gradiente">
-              <div><h5 class="card-title" :class="escuderia.textColor">{{escuderia.nombre}}</h5></div>
+              <div><h5 class="card-title" :class="escuderia.textColor">{{escuderia.nombre.toUpperCase()}}</h5></div>
               <div><img :src="escuderia.logo" class="card-img-logo" :alt="escuderia.nombre" /></div>
             </div>
           </article>
