@@ -20,7 +20,7 @@ app=new Vue({
             nombre:"Alpha Tauri",
             imagen:"img/Escuderias/Alphatauri.jpg",
             gradiente:"gradAlphaTauri",
-            logo:"img/LogoE/alphatauri.png",
+            logo:"img/LogoE/alphatauriv2.png",
             textColor:"text-white"
             },
             {
