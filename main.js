@@ -184,9 +184,9 @@ if ( document.getElementById( "idtabla" )) {
 cad=`
     <table class="table table-hover table-dark">
     <tr>
-        <th>Pos</th>
-        <th>Piloto</th>
-        <th>Equipo</th>
+        <th>POS</th>
+        <th>PILOTO</th>
+        <th>EQUIPO</th>
         <th>PTS</th>
     </tr>
     `
