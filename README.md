@@ -9,3 +9,11 @@
 </h4>
 
 ## 📁 Acceso al proyecto
+www.matibravo47.github.io/Pagina_F1/
+
+## :computer: Tecnologias utilizadas
+
+- Vue.js
+- Javascript vanilla
+
+
