@@ -193,3 +193,9 @@ ul.RedesSociales {
 .nombre {
   margin-bottom: 0;
 }
+.fa-linkedin:hover{
+  color: #0A66C2;
+}
+.fa-square-github:hover{
+  color:#BABBBD;
+}
