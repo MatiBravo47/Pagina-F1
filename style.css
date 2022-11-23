@@ -19,7 +19,7 @@ main{
   }  
 }
 a.nav-link.active , a.nav-link:hover{
-  color: grey !important;
+  color: #3d3d3d !important;
 }
 .nav-link{
   color: white;
@@ -30,7 +30,7 @@ a.nav-link.active , a.nav-link:hover{
 }
 
 .bg-navbar {
-  background-color: #0a0a00;
+  background-color: #212121;
 }
 
 .navbar .navbar-nav .nav-item{
@@ -43,7 +43,7 @@ a.nav-link.active , a.nav-link:hover{
   left: 0;
   right: 0;
   margin: 0 auto;
-  background-color: red;
+  background-color: #EE0000;
   width: 0%;
   height: 4px;
   transition: all .5s;
@@ -52,7 +52,7 @@ a.nav-link.active , a.nav-link:hover{
 .navbar .navbar-nav .nav-item:hover::after{
   width: 100%;
 }
-body {background-color: #0d1117;}
+body {background-color: #181818;}
 
 div {overflow: hidden;}
 
@@ -63,7 +63,7 @@ div {overflow: hidden;}
 .overlay {
   background: rgba(0, 0, 0, 0.8); /* Black see-through */
   bottom: 0;
-  color: black;
+  color: #181818;
   font-size: 20px;
   font-weight: bolder;
   transition: 0.5s ease;
@@ -96,14 +96,14 @@ div {overflow: hidden;}
 }
 /* ==============TIPOGRAFIA================== */
 h1 {
-  color: #990100;
+  color: #EE0000;
   font-weight: 600;
   margin: 0;
   text-decoration: underline;
 }
 
 h2 {
-  color: white;
+  color: #FFF;
 }
 
 h5 {
@@ -114,7 +114,7 @@ h5 {
 /* =================FOOTER================= */
 
 ul.RedesSociales {
-  background-color: black;
+  background-color: #212121;
   bottom: 0px;
   list-style-type: none;
   height: 55px;
@@ -137,12 +137,6 @@ ul.RedesSociales {
 }
 
 /* ========================================================================== */
-/* .container {
-  border-radius: 5px;
-} */
-.espacio {
-  margin-top: 67px;
-}
 
 /* iconos mundial pilotos */
 .iconos{
