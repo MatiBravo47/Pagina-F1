@@ -9,7 +9,7 @@
 </h4>
 
 ## 📁 Acceso al proyecto
-www.matibravo47.github.io/Pagina_F1/
+https://matibravo47.github.io/Pagina-F1/
 
 ## :computer: Tecnologias utilizadas
 
