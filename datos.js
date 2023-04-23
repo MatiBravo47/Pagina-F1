@@ -5,56 +5,56 @@ app=new Vue({
             {
             nombre:"Ferrari",
             imagen:"img/Escuderias/Ferrari.jpg",
-            gradiente:"gradFerrari",
+            gradiente:"ferrari-gradient",
             logo:"img/LogoE/ferrari.svg",
             textColor:"text-white"   
             },
             {
             nombre:" Alfa Romeo",
             imagen:"img/Escuderias/Alfaromeo.jpg",
-            gradiente:"gradAlfaRomeo",
+            gradiente:"AlfaRomeo-gradient",
             logo:"img/LogoE/AlfaRomeo.svg",
             textColor:"text-white"
             },
             {
             nombre:"Alpha Tauri",
             imagen:"img/Escuderias/Alphatauri.jpg",
-            gradiente:"gradAlphaTauri",
+            gradiente:"AlphaTauri-gradient",
             logo:"img/LogoE/alphatauriv2.png",
             textColor:"text-white"
             },
             {
             nombre:"Alpine",
             imagen:"img/Escuderias/Alpine.jpg",
-            gradiente:"gradAlpine" ,
+            gradiente:"Alpine-gradient" ,
             logo:"img/LogoE/Alpine.png",
             textColor:"text-white"   
             },
             {
             nombre:"Aston Martin",
             imagen:"img/Escuderias/Aston Martin.JPG",
-            gradiente:"gradAstonMartin",
+            gradiente:"AstonMartin-gradient",
             logo:"img/LogoE/AstonMartin.png",
             textColor:"text-white"
             },
             {
             nombre:"Haas",
             imagen:"img/Escuderias/Haas.JPG",
-            gradiente:"gradHaas",
+            gradiente:"Haas-gradient",
             logo:"img/LogoE/Haas.svg",
             textColor:"text-dark"
             },
             {
             nombre:"Mclaren",
             imagen:"img/Escuderias/Mclaren.jpg",
-            gradiente:"gradMclaren",
+            gradiente:"Mclaren-gradient",
             logo:"img/LogoE/Mclaren.png",
             textColor:"text-dark"
             },
             {
             nombre:"Mercedes",
             imagen:"img/Escuderias/Mercedes.jpg",
-            gradiente:"gradMercedes" ,
+            gradiente:"Mercedes-gradient" ,
             logo:"img/LogoE/Mercedes.svg",
             textColor:"text-dark"   
             },
@@ -62,13 +62,13 @@ app=new Vue({
             nombre:"RedBull",
             imagen:"img/Escuderias/RB.JPG",
             logo:"img/LogoE/redbull.svg",
-            gradiente:"gradRedBull",
+            gradiente:"RedBull-gradient",
             textColor:"text-white"
             },
             {
             nombre:"Williams",
             imagen:"img/Escuderias/Williams.jpg",
-            gradiente:"gradWilliams",
+            gradiente:"Williams-gradient",
             logo:"img/LogoE/Williams.png",
             textColor:"text-white"
             }
@@ -83,7 +83,7 @@ app=new Vue({
             foto:"./img/Pilotos/Sainz.png",
             PTS:102+25,
             color:"Ferrari",
-            gradiente:"gradFerrari",
+            gradiente:"ferrari-gradient",
             numero:"./img/Numero/55.png",
             textColor:"text-white"
             },
@@ -96,7 +96,7 @@ app=new Vue({
             foto:"./img/Pilotos/Lecrerc.png",
             PTS:126 + 12,
             color:"Ferrari",
-            gradiente:"gradFerrari",
+            gradiente:"ferrari-gradient",
             numero:"./img/Numero/16.png",
             textColor:"text-white"
             },
@@ -109,7 +109,7 @@ app=new Vue({
             foto:"./img/Pilotos/Verstappen.png",
             PTS:175 + 6,
             color:"RedBull",
-            gradiente:"gradRedBull",
+            gradiente:"RedBull-gradient",
             numero:"./img/Numero/1.png",
             textColor:"text-white"
             },
@@ -122,7 +122,7 @@ app=new Vue({
             foto:"./img/Pilotos/Perez.png",
             PTS:129 + 18,
             color:"RedBull",
-            gradiente:"gradRedBull",
+            gradiente:"RedBull-gradient",
             numero:"./img/Numero/11.png",
             textColor:"text-white"
             },
@@ -135,7 +135,7 @@ app=new Vue({
             foto:"./img/Pilotos/Norris.png",
             PTS:50 + 8,
             color:"Mclaren",
-            gradiente:"gradMclaren",
+            gradiente:"Mclaren-gradient",
             numero:"./img/Numero/4.png",
             textColor:"text-dark"
             },
@@ -148,7 +148,7 @@ app=new Vue({
             foto:"./img/Pilotos/Ricciardo.png",
             PTS:15,
             color:"Mclaren",
-            gradiente:"gradMclaren",
+            gradiente:"Mclaren-gradient",
             numero:"./img/Numero/3.png",
             textColor:"text-dark"
             },
@@ -161,7 +161,7 @@ app=new Vue({
             foto:"./img/Pilotos/Alonso.png",
             PTS:18 + 10,
             color:"Alpine",
-            gradiente:"gradAlpine",
+            gradiente:"Alpine-gradient",
             numero:"./img/Numero/14.png",
             textColor:"text-white"
             },
@@ -174,7 +174,7 @@ app=new Vue({
             foto:"./img/Pilotos/Ocon.png",
             PTS:39,
             color:"Alpine",
-            gradiente:"gradAlpine",
+            gradiente:"Alpine-gradient",
             numero:"./img/Numero/31.png",
             textColor:"text-white"
             },
@@ -187,7 +187,7 @@ app=new Vue({
             foto:"./img/Pilotos/Magnussen.png",
             PTS:15 + 1,
             color:"Haas",
-            gradiente:"gradHaas",
+            gradiente:"Haas-gradient",
             numero:"./img/Numero/20.png",
             textColor: "text-dark"
             },
@@ -200,7 +200,7 @@ app=new Vue({
             foto:"./img/Pilotos/Schumacher.png",
             PTS:0+4,
             color:"Haas",
-            gradiente:"gradHaas",
+            gradiente:"Haas-gradient",
             numero:"./img/Numero/47.png",
             textColor: "text-dark"
             },
@@ -213,7 +213,7 @@ app=new Vue({
             foto:"./img/Pilotos/Hamilton.png",
             PTS:77 + 16,
             color:"Mercedes",
-            gradiente:"gradMercedes",
+            gradiente:"Mercedes-gradient",
             numero:"./img/Numero/44.png",
             textColor: "text-dark"
             },
@@ -226,7 +226,7 @@ app=new Vue({
             foto:"./img/Pilotos/Russell.png",
             PTS:111,
             color:"Mercedes",
-            gradiente:"gradMercedes" ,
+            gradiente:"Mercedes-gradient" ,
             numero:"./img/Numero/63.png",
             textColor: "text-dark"
             },
@@ -239,7 +239,7 @@ app=new Vue({
             foto:"./img/Pilotos/Tsunoda.png",
             PTS:11,
             color:"AlphaTauri",
-            gradiente:"gradAlphaTauri",
+            gradiente:"AlphaTauri-gradient",
             numero:"./img/Numero/22.png",
             textColor:"text-white"
             },
@@ -252,7 +252,7 @@ app=new Vue({
             foto:"./img/Pilotos/Gasly.png",
             PTS:16,
             color:"AlphaTauri",
-            gradiente:"gradAlphaTauri",
+            gradiente:"AlphaTauri-gradient",
             numero:"./img/Numero/10.png",
             textColor:"text-white"
             },
@@ -265,7 +265,7 @@ app=new Vue({
             foto:"./img/Pilotos/Bottas.png",
             PTS:46,
             color:"AlfaRomeo",
-            gradiente:"gradAlfaRomeo",
+            gradiente:"AlfaRomeo-gradient",
             numero:"./img/Numero/77.png",
             textColor:"text-white"
             },
@@ -278,7 +278,7 @@ app=new Vue({
             foto:"./img/Pilotos/Gaunyu.png",
             PTS:5,
             color:"AlfaRomeo",
-            gradiente:"gradAlfaRomeo",
+            gradiente:"AlfaRomeo-gradient",
             numero:"./img/Numero/24.png",
             textColor:"text-white"
             },
@@ -291,7 +291,7 @@ app=new Vue({
             foto:"./img/Pilotos/Latifi.png",
             PTS:0,
             color:"Williams",
-            gradiente:"gradWilliams",
+            gradiente:"Williams-gradient",
             numero:"./img/Numero/6.png",
             textColor:"text-white"
             },
@@ -304,7 +304,7 @@ app=new Vue({
             foto:"./img/Pilotos/Albon.png",
             PTS:0,
             color:"Williams",
-            gradiente:"gradWilliams",
+            gradiente:"Williams-gradient",
             numero:"./img/Numero/23.png",
             textColor:"text-white"
             },
@@ -317,7 +317,7 @@ app=new Vue({
             foto:"./img/Pilotos/Vettel.png",
             PTS:13 + 2,
             color:"AstonMartin",
-            gradiente:"gradAstonMartin",
+            gradiente:"AstonMartin-gradient",
             numero:"./img/Numero/5.png",
             textColor:"text-white"
             },
@@ -330,7 +330,7 @@ app=new Vue({
             foto:"./img/Pilotos/Stroll.png",
             PTS:3,
             color:"AstonMartin",
-            gradiente:"gradAstonMartin",
+            gradiente:"AstonMartin-gradient",
             numero:"./img/Numero/18.png",
             textColor:"text-white"
             }]

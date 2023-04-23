@@ -1,3 +1,4 @@
+// Función para hacer responsive la barra de navegación
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -7,6 +8,7 @@ function myFunction() {
   }
 }
 //Vector de objetos,cada objeto es un piloto de F1
+//Vector que sirve para generar la tabla de posiciones 
 let pilotos=[
   {
   nombre:"Carlos Sainz",
@@ -169,12 +171,9 @@ let pilotos=[
   PTS:13
   },
 ]
-//Funcion que arregla en orden decreciente por puntos 
-//crea lista porPuntos
+// Código para ordenar los pilotos por puntos
 let porPuntos = pilotos.slice(0);
-// porPuntos.sort(function(a,b) {
-//     return b.PTS - a.PTS;
-// });
+
 porPuntos.sort((a,b) => b.PTS - a.PTS )
 
 
@@ -190,7 +189,7 @@ cad=`
         <th>PTS</th>
     </tr>
     `
-//y ademas tiene un contenido que varia segun su data
+// Código para generar la tabla HTML con los datos de los pilotos
     for (let [index, puntos] of porPuntos.entries()){
     cad+= `
         <tr>

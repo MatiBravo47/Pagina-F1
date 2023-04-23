@@ -71,7 +71,7 @@
         <section class="col-12 col-md-6 contenido" v-for="escuderia in escuderias">
           <article class="card mb-3 bg-body p-1 rounded">
             <img :src="escuderia.imagen" class="card-img-top" :alt="escuderia.nombre" />
-            <div class="card-body" :id="escuderia.gradiente">
+            <div class="card-body" :class="escuderia.gradiente">
               <div><h5 class="card-title" :class="escuderia.textColor">{{escuderia.nombre.toUpperCase()}}</h5></div>
               <div><img :src="escuderia.logo" class="card-img-logo" :alt="escuderia.nombre" /></div>
             </div>

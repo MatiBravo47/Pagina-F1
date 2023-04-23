@@ -1,81 +1,85 @@
+/* Define variables for team colors */
+:root {
+  --ferrari-color: #fe0000;
+  --mercedes-color: #02a09b;
+  --redbull-color: #14195b;
+  --mclaren-color: #fd8000;
+  --williams-color: #041e41;
+  --astonmartin-color: #015a50;
+  --haas-color: #dadada;
+  --alfaromeo-color: #990100;
+  --alphatauri-color: #022a4a;
+  --alpine-color: #0f1c2c;
+}
 /* COLORES EQUIPOS */
-.Ferrari {
-  background-color: rgba(254, 0, 0, 0.8);
+
+.Ferrari-background {
+  background-color: var(--ferrari-color);
 }
-#gradFerrari {
-  background-color: #fe0000; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, #fe0000, black);
+.ferrari-gradient{
+  background-image: linear-gradient(to right, var(--ferrari-color), black);
 }
 
-.Mercedes {
-  background-color: rgba(2, 160, 155, 0.7);
+.Mercedes-background {
+  background-color: var(--mercedes-color);
 }
-#gradMercedes {
-  background-color: #02a09b; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, #02a09b, white);
-}
-
-.RedBull {
-  background-color: rgba(20, 25, 91, 0.9);
-}
-#gradRedBull {
-  background-color: #14195b; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, #14195b, black);
+.Mercedes-gradient {
+  background-image: linear-gradient(to right, var(--mercedes-color), white);
 }
 
-.Mclaren {
-  background-color: rgba(253, 128, 0, 0.8);
+.RedBull-background {
+  background-color: var(--redbull-color);
 }
-#gradMclaren {
-  background-color: #fd8000; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, #fd8000, white);
-}
-
-.Williams {
-  background-color: rgba(4, 30, 65, 0.8);
-}
-#gradWilliams {
-  background-color: #041e41; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, #041e41, black);
+.RedBull-gradient {
+  background-image: linear-gradient(to right, var(--redbull-color), black);
 }
 
-.AstonMartin {
+.Mclaren-background {
+  background-color: var(--mclaren-color);
+}
+.Mclaren-gradient {
+  background-image: linear-gradient(to right, var(--mclaren-color), white);
+}
+
+.Williams-background {
+  background-color: var(--williams-color);
+}
+.Williams-gradient {
+  background-image: linear-gradient(to right, var(--williams-color), black);
+}
+
+.AstonMartin-background {
   background-color: rgba(1, 90, 80, 0.8);
 }
-#gradAstonMartin {
-  background-color: #015a50; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, #015a50, black);
+.AstonMartin-gradient {
+  background-image: linear-gradient(to right, var(--astonmartin-color), black);
 }
 
-.Haas {
-  background-color: rgba(218, 218, 218, 0.8);
+.Haas-background {
+  background-color: var(--haas-color);
 }
-#gradHaas {
-  background-color: #dadada; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, #dadada, white);
+.Haas-gradient {
+  background-image: linear-gradient(to right, var(--haas-color), white);
 }
-.AlfaRomeo {
-  background-color: rgba(153, 1, 0, 0.8);
+.AlfaRomeo-background {
+  background-color: var(--alfaromeo-color);
 }
-#gradAlfaRomeo {
-  background-color: #990100; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, #990100, black);
+.AlfaRomeo-gradient {
+  background-image: linear-gradient(to right, var(--alfaromeo-color), black);
 }
 
-.AlphaTauri {
-  background-color: rgba(2, 42, 74, 0.9);
+.AlphaTauri-background {
+  background-color: var(--alphatauri-color);
 }
-#gradAlphaTauri {
-  background-color: #022a4a; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, #022a4a, black);
+.AlphaTauri-gradient {
+  background-image: linear-gradient(to right, var(--alphatauri-color) black);
 }
 
-.Alpine {
-  background-color: rgba(15, 28, 44, 0.9);
+.Alpine-background {
+  background-color: var(--alpine-color);
 }
-#gradAlpine {
-  background-color: #0f1c2c; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, #0f1c2c, black);
+.Alpine-gradient {
+  background-image: linear-gradient(to right, var(--alpine-color), black);
 }
 
 /* --------------------------------------------------------------------------- */
